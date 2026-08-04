@@ -236,6 +236,140 @@ const skills = [
       6: "Определяет орг. стратегии, политики и стандарты release management. Выравнивает релизы со стратегией бизнеса, обеспечивает ресурсы/tools, продвигает adoption новых техник.",
     },
   },
+  {
+    id: "PROD",
+    name: "Product management",
+    name_ru: "Управление продуктом",
+    summary:
+      "Managing and developing products or services throughout their full lifecycle.",
+    summary_ru:
+      "Управление продуктом на всём жизненном цикле: видение, roadmap, backlog, запуск, метрики, развитие и вывод.",
+    category: "product",
+    sfia_url: "https://sfia-online.org/en/sfia-9/skills/product-management",
+    levels: [2, 3, 4, 5, 6],
+    level_text: {
+      2: "Помогает с задачами product management под контролем. Создаёт и поддерживает контент для использования продукта. Мониторит результаты и feedback. Собирает и отчитывается по данным использования.",
+      3: "Создаёт контент для adoption продукта. Мониторит результаты кампаний/запусков. Применяет стандартные методы анализа и мониторинга продукта. Разрешает issues и действует по feedback.",
+      4: "Управляет одним или несколькими продуктами меньшей ценности. Приоритизирует требования, ведёт roadmap и backlog. Управляет lifecycle под потребности пользователей и цели. Использует research/feedback/data. Организует trials и launches.",
+      5: "Ведёт полный product lifecycle. Выбирает и адаптирует методы разработки продукта. Формирует propositions, positioning, сегменты. Координирует customer testing и launches. Планирует retirement/transition.",
+      6: "Курирует портфель продуктов и сервисов. Создаёт framework lifecycle management. Выравнивает product management с бизнес-целями. Инициирует новые продукты и возможности.",
+    },
+  },
+  {
+    id: "REQM",
+    name: "Requirements definition and management",
+    name_ru: "Определение и управление требованиями",
+    summary:
+      "Eliciting, analysing, prioritising and validating requirements for systems, processes, products or services.",
+    summary_ru:
+      "Сбор, анализ, приоритизация и валидация требований: backlog, user stories, acceptance criteria, traceability, change management.",
+    category: "product",
+    sfia_url:
+      "https://sfia-online.org/en/sfia-9/skills/requirements-definition-and-management",
+    levels: [2, 3, 4, 5, 6],
+    level_text: {
+      2: "Elicitation и документирование требований для простых областей с чёткими границами. Помогает в управлении требованиями, создании baseline/backlog, применении изменений.",
+      3: "Определяет scope, elicitation и prioritisation для небольших изменений. Применяет стандарты и техники. Challenge стейкхолдеров. Приоритизирует, обеспечивает traceability. Управляет change requests.",
+      4: "Ведёт scoping и requirements для инициатив средней сложности. Фасилитирует input стейкхолдеров, effective prioritisation. Устанавливает baselines/backlogs, согласует требования.",
+      5: "Планирует и ведёт requirements для крупных сложных инициатив. Выбирает методы и tools. Согласует input разных стейкхолдеров, управляет конфликтами приоритетов.",
+      6: "Продвигает ценность requirements management. Разрабатывает орг. политики и стандарты. Планирует scoping/prioritisation для стратегических программ.",
+    },
+  },
+  {
+    id: "RLMT",
+    name: "Stakeholder relationship management",
+    name_ru: "Управление отношениями со стейкхолдерами",
+    summary:
+      "Systematically identifying, analysing and managing stakeholder relationships to achieve mutually beneficial outcomes.",
+    summary_ru:
+      "Системный подход к стейкхолдерам: анализ, согласование outcomes, engagement-планы, эскалации, мониторинг отношений.",
+    category: "stakeholder",
+    sfia_url:
+      "https://sfia-online.org/en/sfia-9/skills/stakeholder-relationship-management",
+    levels: [4, 5, 6, 7],
+    level_text: {
+      4: "Решает проблемы и issues, управляет resolutions и lessons learned. Реализует stakeholder engagement/communications plans. Собирает feedback для оценки эффективности. Развивает отношения с клиентами и стейкхолдерами.",
+      5: "Определяет communications/relationship needs групп стейкхолдеров. Переводит engagement-стратегии в активности. Single point of contact по engagement-планам. Фасилитирует business decision-making.",
+      6: "Ведёт comprehensive stakeholder management strategies. Строит долгосрочные стратегические отношения. Principal point of contact, negotiation. Мониторит relationships, улучшает communication.",
+      7: "Определяет стратегический подход к stakeholder objectives. Устанавливает vision и org roles. Активно управляет senior stakeholders, ultimate escalation point.",
+    },
+  },
+  {
+    id: "BUSA",
+    name: "Business situation analysis",
+    name_ru: "Анализ бизнес-ситуации",
+    summary:
+      "Investigating business situations to identify and analyse problems, opportunities and root causes.",
+    summary_ru:
+      "Исследование бизнес-контекста: проблемы, возможности, root cause analysis, рекомендации для изменений.",
+    category: "business",
+    sfia_url:
+      "https://sfia-online.org/en/sfia-9/skills/business-situation-analysis",
+    levels: [2, 3, 4, 5, 6],
+    level_text: {
+      2: "Помогает исследовать бизнес-ситуации, выявлять проблемы и возможности. Собирает и организует данные для рекомендаций.",
+      3: "Исследует straightforward ситуации, анализирует проблемы и возможности. Следует стандартам investigation. Взаимодействует со стейкхолдерами под руководством.",
+      4: "Исследует ситуации со сложностью и неоднозначностью. Holistic view, root cause analysis. Выбирает подход и техники. Взаимодействует с operational stakeholders.",
+      5: "Планирует и ведёт analysis при значительной ambiguity. Advises по подходам. Holistic view широкого спектра проблем. Согласует conclusions с management-level stakeholders.",
+      6: "Инициирует analysis при extensive ambiguity и org impact. Продвигает holistic analysis до change programmes. Engages executive level. Определяет org policies для analysis.",
+    },
+  },
+  {
+    id: "FEAS",
+    name: "Feasibility assessment",
+    name_ru: "Оценка осуществимости",
+    summary:
+      "Generating and evaluating options for change against financial, technical and business feasibility.",
+    summary_ru:
+      "Генерация и оценка опций изменений: feasibility, business case, cost/benefit, риски.",
+    category: "business",
+    sfia_url: "https://sfia-online.org/en/sfia-9/skills/feasibility-assessment",
+    levels: [2, 3, 4, 5, 6],
+    level_text: {
+      2: "Помогает с feasibility tasks. Собирает информацию для assessments. Поддерживает identification и документирование опций.",
+      3: "Поддерживает identification опций и feasibility. Применяет стандартные техники. Поддерживает cost/benefit и business cases.",
+      4: "Выбирает подходы feasibility. Identifies options, short-listing, assessment. Взаимодействует со стейкхолдерами. Готовит business cases с cost/benefit, impact, risk.",
+      5: "Управляет investigative work для feasibility. Advises по подходам. Готовит business cases для опций, включая cost/benefit, impact, risk analysis.",
+      6: "Устанавливает org framework для feasibility и business cases. Ведёт assessments для initiatives с significant org impact. Presentations senior stakeholders.",
+    },
+  },
+  {
+    id: "MEAS",
+    name: "Measurement",
+    name_ru: "Измерение и метрики",
+    summary:
+      "Planning and implementing measurement of processes, products and services to assess performance and progress.",
+    summary_ru:
+      "Метрики продукта и процессов: выбор measures, сбор данных, отчётность, интерпретация для решений.",
+    category: "analytics",
+    sfia_url: "https://sfia-online.org/en/sfia-9/skills/measurement",
+    levels: [2, 3, 4, 5, 6],
+    level_text: {
+      2: "Помогает собирать и поддерживать данные для measurement. Применяет стандартные процедуры измерения. Генерирует и распространяет отчёты.",
+      3: "Поддерживает specification measures, сбор и maintenance данных. Генерирует отчёты. Использует tools для routine analysis. Улучшает data collection.",
+      4: "Identifies и prioritises measures, scales, targets. Разрабатывает measurement methods. Specified base/derived measures, data collection, reporting formats.",
+      5: "Устанавливает measurement objectives и scope. Планирует improvements capability. Advises по effective use of measures. Вносит вклад в org policies measurement.",
+      6: "Ведёт развитие org capabilities measurement. Создаёт measurement framework, aligns с business objectives. Policies, standards, resources для adoption.",
+    },
+  },
+  {
+    id: "DEMG",
+    name: "Delivery management",
+    name_ru: "Управление поставкой",
+    summary:
+      "Managing collaborative delivery of products or services through effective processes, planning and stakeholder coordination.",
+    summary_ru:
+      "Управление delivery-командой: планирование, приоритизация, риски, progress reporting, continuous improvement.",
+    category: "delivery",
+    sfia_url: "https://sfia-online.org/en/sfia-9/skills/delivery-management",
+    levels: [3, 4, 5, 6],
+    level_text: {
+      3: "Управляет routine delivery небольших продуктов/частей сервиса. Следует методологиям и quality processes. Координирует planning, tracks progress/risks/issues. Поддерживает collaborative environment.",
+      4: "Управляет delivery для small-to-medium инициатив. Применяет delivery methodologies, ведёт teams. Prioritisation, iteration planning, incremental value. Communicates progress/risks/issues.",
+      5: "Лидирует delivery крупных/complex инициатив. Адаптирует подходы. Leadership нескольким teams. Proactive risk/dependency/change management. Drives continuous improvement.",
+      6: "Определяет delivery strategy для multiple products/services. Aligns с org goals. Monitors performance, mitigates systemic risks. Sets direction и standards delivery management.",
+    },
+  },
 ];
 
 const req = (skill_id, min_level, priority = "required", notes = "") => ({
@@ -456,6 +590,78 @@ const roles = [
       },
     },
   },
+  {
+    id: "product-manager",
+    name: "Product Manager",
+    name_ru: "Продакт-менеджер",
+    description:
+      "Управляет продуктом на всём жизненном цикле: discovery, приоритизация, roadmap, delivery и метрики. Навыки SFIA product/business/delivery с акцентом на ценность для пользователя и бизнеса.",
+    status: "active",
+    grades: {
+      junior: {
+        label: "Junior Product Manager",
+        summary:
+          "Помощь в product-активностях под менторством: сбор требований, контент, базовые метрики.",
+        requirements: [
+          req("PROD", 2),
+          req("REQM", 2),
+          req("BUSA", 2),
+          req("MEAS", 2),
+          req("HCEV", 2, "optional", "Понимание UX при описании фич"),
+          req("FEAS", 2, "optional"),
+        ],
+      },
+      middle: {
+        label: "Middle Product Manager",
+        summary:
+          "Самостоятельное ведение фич/небольшого продукта: backlog, приоритизация, запуск, метрики.",
+        requirements: [
+          req("PROD", 3),
+          req("REQM", 3),
+          req("BUSA", 3),
+          req("MEAS", 3),
+          req("HCEV", 3),
+          req("USEV", 2, "optional"),
+          req("FEAS", 3, "optional"),
+          req("RELM", 2, "optional", "Координация релизов с командой"),
+        ],
+      },
+      senior: {
+        label: "Senior Product Manager",
+        summary:
+          "Владение продуктом/стримом: roadmap, стейкхолдеры, сложные trade-off'ы, outcome-метрики.",
+        requirements: [
+          req("PROD", 4),
+          req("REQM", 4),
+          req("RLMT", 4),
+          req("BUSA", 4),
+          req("MEAS", 4),
+          req("HCEV", 3),
+          req("USEV", 3),
+          req("RELM", 3),
+          req("FEAS", 4, "optional"),
+          req("DEMG", 3, "optional"),
+        ],
+      },
+      lead: {
+        label: "Lead Product Manager",
+        summary:
+          "Лидерство product-направления: lifecycle, portfolio thinking, стандарты discovery/delivery.",
+        requirements: [
+          req("PROD", 5),
+          req("REQM", 5),
+          req("RLMT", 5),
+          req("MEAS", 5),
+          req("RELM", 4),
+          req("DEMG", 4),
+          req("BUSA", 5, "optional"),
+          req("FEAS", 5, "optional"),
+          req("HCEV", 3, "optional"),
+          req("USEV", 3, "optional"),
+        ],
+      },
+    },
+  },
 ];
 
 const assessmentGuide = {
@@ -513,7 +719,7 @@ function attachRoleAssessment(role) {
 }
 
 const matrix = {
-  version: "0.3.0",
+  version: "0.4.0",
   sfia_version: "9",
   updated: new Date().toISOString().slice(0, 10),
   title: "Матрица компетенций команды разработки",
@@ -712,10 +918,11 @@ writeFileSync(
     "",
     "## Пример переиспользования навыка",
     "",
-    "| Навык | iOS / Middle | Frontend / Middle | QA / Middle |",
-    "| --- | --- | --- | --- |",
-    "| TEST | ≥ 2 | ≥ 2 | ≥ 3 |",
-    "| ACIN | ≥ 2 | ≥ 3 | ≥ 3 |",
+    "| Навык | iOS / Middle | Frontend / Middle | QA / Middle | PM / Middle |",
+    "| --- | --- | --- | --- | --- |",
+    "| TEST | ≥ 2 | ≥ 2 | ≥ 3 | — |",
+    "| ACIN | ≥ 2 | ≥ 3 | ≥ 3 | — |",
+    "| HCEV | ≥ 3 | ≥ 3 | — | ≥ 3 |",
     "",
   ].join("\n")
 );

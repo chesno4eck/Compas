@@ -611,4 +611,254 @@ export const roleAssessment = {
       },
     },
   },
+
+  "product-manager": {
+    PROD: {
+      2: {
+        check: [
+          "Помогает с product-задачами под менторством: описание фич, release notes, FAQ",
+          "Собирает feedback пользователей/стейкхолдеров по шаблону",
+          "Мониторит базовые метрики использования по дашборду команды",
+        ],
+        artifacts: [
+          "Оформленная user story / feature brief",
+          "Сводка feedback по фиче",
+          "Скрин дашборда с комментариями",
+        ],
+      },
+      3: {
+        check: [
+          "Ведёт backlog фичи/небольшого продукта: приоритизация, acceptance criteria",
+          "Мониторит результаты запусков, действует по данным и feedback",
+          "Координирует контент для adoption (help, onboarding, comms) с командой",
+        ],
+        artifacts: [
+          "Приоритизированный backlog с rationale",
+          "Post-launch review с метриками",
+          "Короткий go/no-go по фиче",
+        ],
+      },
+      4: {
+        check: [
+          "Владеет roadmap продукта/стрима; балансирует value, риски, capacity",
+          "Использует research, интервью, analytics для discovery и приоритизации",
+          "Организует beta/trial и launch; отслеживает product performance",
+        ],
+        artifacts: [
+          "Roadmap на квартал с outcome-целями",
+          "Discovery doc (problem → solution → metrics)",
+          "Launch plan + итоги первых недель",
+        ],
+      },
+      5: {
+        check: [
+          "Ведёт полный lifecycle продукта/линейки: vision, positioning, segments",
+          "Выбирает product development подход (discovery/delivery cadence)",
+          "Планирует retirement/transition; координирует customer testing на масштабе",
+        ],
+        artifacts: [
+          "Product strategy / vision doc",
+          "Positioning и сегментация",
+          "Retirement или pivot plan с метриками",
+        ],
+      },
+    },
+    REQM: {
+      2: {
+        check: [
+          "Elicitation простых требований по шаблону (user story, AC)",
+          "Помогает вести backlog и фиксировать изменения требований",
+        ],
+        artifacts: ["User stories с AC", "Diff изменений в backlog"],
+      },
+      3: {
+        check: [
+          "Самостоятельно elicitation и документирование для фичи",
+          "Challenge неясных требований; traceability к цели/метрике",
+          "Управляет change requests в рамках политики команды",
+        ],
+        artifacts: [
+          "PRD / feature spec",
+          "Матрица traceability (goal → requirement → test/metric)",
+          "Запись согласования scope change",
+        ],
+      },
+      4: {
+        check: [
+          "Ведёт requirements для инициатив средней сложности; фасилитирует стейкхолдеров",
+          "Effective prioritisation с trade-off'ами (scope/time/value)",
+        ],
+        artifacts: ["Epic breakdown", "Prioritisation workshop notes", "Signed-off backlog baseline"],
+      },
+      5: {
+        check: [
+          "Планирует requirements для крупных инициатив; negotiates competing priorities",
+          "Адаптирует methods (dual-track, SAFe backlog levels и т.п.) под контекст",
+        ],
+        artifacts: ["Requirements approach для программы", "Conflict resolution log", "Org contribution к standards"],
+      },
+    },
+    RLMT: {
+      4: {
+        check: [
+          "Ведёт engagement-план для своих стейкхолдеров (biz, design, eng, support)",
+          "Собирает feedback, закрывает issues, улучшает communication",
+        ],
+        artifacts: ["Stakeholder map", "Engagement/communications plan", "Feedback summary"],
+      },
+      5: {
+        check: [
+          "Single point of contact по product для ключевых групп",
+          "Фасилитирует business decisions; переводит strategy в deliverables",
+        ],
+        artifacts: [
+          "Decision log с alternatives",
+          "Steerco/exec update deck",
+          "Alignment notes cross-team",
+        ],
+      },
+    },
+    BUSA: {
+      2: {
+        check: [
+          "Собирает данные для анализа проблемы: интервью, support tickets, метрики",
+          "Помогает структурировать findings под руководством",
+        ],
+        artifacts: ["Research notes", "Problem statement draft"],
+      },
+      3: {
+        check: [
+          "Investigates straightforward business situations для фичи/улучшения",
+          "Формулирует проблему, гипотезу, рекомендации с evidence",
+        ],
+        artifacts: ["Opportunity assessment", "Root cause notes (5 whys / fishbone lite)"],
+      },
+      4: {
+        check: [
+          "Анализирует ambiguous ситуации; holistic view проблем и возможностей",
+          "Root cause analysis; рекомендации с учётом org constraints",
+        ],
+        artifacts: ["Business analysis doc", "Options comparison", "Workshop outcomes"],
+      },
+      5: {
+        check: [
+          "Ведёт complex business situation analysis для стратегических инициатив",
+          "Согласует conclusions с management-level stakeholders",
+        ],
+        artifacts: ["Strategic opportunity brief", "Executive summary с рекомендациями"],
+      },
+    },
+    FEAS: {
+      2: {
+        check: ["Собирает данные для rough feasibility (effort, dependencies, риски)"],
+        artifacts: ["Checklist feasibility", "Rough t-shirt sizing notes"],
+      },
+      3: {
+        check: [
+          "Поддерживает business case: tangible costs/benefits, риски",
+          "Short-list опций с eng/design",
+        ],
+        artifacts: ["Lightweight business case", "Option comparison table"],
+      },
+      4: {
+        check: [
+          "Готовит business case с cost/benefit, impact, risk для инициативы",
+          "Engages internal/external stakeholders за информацией",
+        ],
+        artifacts: ["Business case document", "Risk register для инициативы"],
+      },
+    },
+    MEAS: {
+      2: {
+        check: [
+          "Поддерживает сбор product-метрик по шаблону (DAU, conversion, NPS и т.п.)",
+          "Генерирует простые отчёты для команды",
+        ],
+        artifacts: ["Weekly metrics snapshot", "Dashboard setup notes"],
+      },
+      3: {
+        check: [
+          "Определяет metrics для фичи (leading/lagging); следит за data quality",
+          "Интерпретирует routine analytics для product decisions",
+        ],
+        artifacts: ["Metric tree для фичи", "Experiment readout"],
+      },
+      4: {
+        check: [
+          "Prioritises measures для продукта/стрима; design reporting",
+          "Помогает командам с measurement methods",
+        ],
+        artifacts: ["North star + input metrics framework", "Custom report / cohort analysis"],
+      },
+      5: {
+        check: [
+          "Measurement objectives для product area; improves measurement capability",
+          "Advises по effective use of metrics; contributes to org standards",
+        ],
+        artifacts: ["Measurement strategy", "Org metric glossary contribution"],
+      },
+    },
+    DEMG: {
+      3: {
+        check: [
+          "Координирует routine delivery небольшой фичи: planning, risks, status",
+          "Следует delivery process команды; tracks progress",
+        ],
+        artifacts: ["Sprint/release plan", "Risk/issue log", "Status report"],
+      },
+      4: {
+        check: [
+          "Ведёт delivery medium инициатив; iteration planning, incremental value",
+          "Communicates progress/risks; quality of deliverables",
+        ],
+        artifacts: ["Delivery plan cross-team", "Increment review notes", "Retro actions"],
+      },
+    },
+    HCEV: {
+      2: {
+        check: [
+          "Понимает базовые UX-принципы; описывает user flow для простой фичи",
+          "Согласует scope с дизайном по макетам",
+        ],
+        artifacts: ["User flow sketch", "Feature brief с UX-контекстом"],
+      },
+      3: {
+        check: [
+          "Формулирует UX-требования в PRD; итерирует с design на прототипах",
+          "Учитывает usability/accessibility в acceptance criteria",
+        ],
+        artifacts: ["PRD с UX section", "Prototype review notes"],
+      },
+    },
+    USEV: {
+      2: {
+        check: ["Собирает feedback по прототипу/MVP по шаблону (интервью, опрос)"],
+        artifacts: ["Interview guide + notes", "Synthesis of feedback"],
+      },
+      3: {
+        check: [
+          "Проводит/организует usability evaluation; приоритизирует findings для backlog",
+        ],
+        artifacts: ["Usability test plan", "Findings report с recommendations"],
+      },
+    },
+    RELM: {
+      2: {
+        check: ["По чеклисту готовит release comms, notes, координацию с QA/eng"],
+        artifacts: ["Release checklist PM", "Release notes draft"],
+      },
+      3: {
+        check: [
+          "Координирует типовой релиз фичи: scope, comms, мониторинг post-release",
+        ],
+        artifacts: ["Release plan", "Post-release monitoring notes"],
+      },
+      4: {
+        check: [
+          "Планирует релизы с зависимостями, staged rollout, rollback criteria",
+        ],
+        artifacts: ["Cross-team release plan", "Post-release review с метриками"],
+      },
+    },
+  },
 };

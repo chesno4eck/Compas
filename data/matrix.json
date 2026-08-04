@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "sfia_version": "9",
   "updated": "2026-08-04",
   "title": "Матрица компетенций команды разработки",
@@ -497,6 +497,302 @@
           "level": 6,
           "title": "Initiate, influence",
           "text": "Определяет орг. стратегии, политики и стандарты release management. Выравнивает релизы со стратегией бизнеса, обеспечивает ресурсы/tools, продвигает adoption новых техник."
+        }
+      ]
+    },
+    {
+      "id": "PROD",
+      "name": "Product management",
+      "name_ru": "Управление продуктом",
+      "summary": "Managing and developing products or services throughout their full lifecycle.",
+      "summary_ru": "Управление продуктом на всём жизненном цикле: видение, roadmap, backlog, запуск, метрики, развитие и вывод.",
+      "category": "product",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/product-management",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Помогает с задачами product management под контролем. Создаёт и поддерживает контент для использования продукта. Мониторит результаты и feedback. Собирает и отчитывается по данным использования."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Создаёт контент для adoption продукта. Мониторит результаты кампаний/запусков. Применяет стандартные методы анализа и мониторинга продукта. Разрешает issues и действует по feedback."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Управляет одним или несколькими продуктами меньшей ценности. Приоритизирует требования, ведёт roadmap и backlog. Управляет lifecycle под потребности пользователей и цели. Использует research/feedback/data. Организует trials и launches."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Ведёт полный product lifecycle. Выбирает и адаптирует методы разработки продукта. Формирует propositions, positioning, сегменты. Координирует customer testing и launches. Планирует retirement/transition."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Курирует портфель продуктов и сервисов. Создаёт framework lifecycle management. Выравнивает product management с бизнес-целями. Инициирует новые продукты и возможности."
+        }
+      ]
+    },
+    {
+      "id": "REQM",
+      "name": "Requirements definition and management",
+      "name_ru": "Определение и управление требованиями",
+      "summary": "Eliciting, analysing, prioritising and validating requirements for systems, processes, products or services.",
+      "summary_ru": "Сбор, анализ, приоритизация и валидация требований: backlog, user stories, acceptance criteria, traceability, change management.",
+      "category": "product",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/requirements-definition-and-management",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Elicitation и документирование требований для простых областей с чёткими границами. Помогает в управлении требованиями, создании baseline/backlog, применении изменений."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Определяет scope, elicitation и prioritisation для небольших изменений. Применяет стандарты и техники. Challenge стейкхолдеров. Приоритизирует, обеспечивает traceability. Управляет change requests."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Ведёт scoping и requirements для инициатив средней сложности. Фасилитирует input стейкхолдеров, effective prioritisation. Устанавливает baselines/backlogs, согласует требования."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Планирует и ведёт requirements для крупных сложных инициатив. Выбирает методы и tools. Согласует input разных стейкхолдеров, управляет конфликтами приоритетов."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Продвигает ценность requirements management. Разрабатывает орг. политики и стандарты. Планирует scoping/prioritisation для стратегических программ."
+        }
+      ]
+    },
+    {
+      "id": "RLMT",
+      "name": "Stakeholder relationship management",
+      "name_ru": "Управление отношениями со стейкхолдерами",
+      "summary": "Systematically identifying, analysing and managing stakeholder relationships to achieve mutually beneficial outcomes.",
+      "summary_ru": "Системный подход к стейкхолдерам: анализ, согласование outcomes, engagement-планы, эскалации, мониторинг отношений.",
+      "category": "stakeholder",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/stakeholder-relationship-management",
+      "levels": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Решает проблемы и issues, управляет resolutions и lessons learned. Реализует stakeholder engagement/communications plans. Собирает feedback для оценки эффективности. Развивает отношения с клиентами и стейкхолдерами."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Определяет communications/relationship needs групп стейкхолдеров. Переводит engagement-стратегии в активности. Single point of contact по engagement-планам. Фасилитирует business decision-making."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Ведёт comprehensive stakeholder management strategies. Строит долгосрочные стратегические отношения. Principal point of contact, negotiation. Мониторит relationships, улучшает communication."
+        },
+        {
+          "level": 7,
+          "title": "Set strategy, inspire, mobilise",
+          "text": "Определяет стратегический подход к stakeholder objectives. Устанавливает vision и org roles. Активно управляет senior stakeholders, ultimate escalation point."
+        }
+      ]
+    },
+    {
+      "id": "BUSA",
+      "name": "Business situation analysis",
+      "name_ru": "Анализ бизнес-ситуации",
+      "summary": "Investigating business situations to identify and analyse problems, opportunities and root causes.",
+      "summary_ru": "Исследование бизнес-контекста: проблемы, возможности, root cause analysis, рекомендации для изменений.",
+      "category": "business",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/business-situation-analysis",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Помогает исследовать бизнес-ситуации, выявлять проблемы и возможности. Собирает и организует данные для рекомендаций."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Исследует straightforward ситуации, анализирует проблемы и возможности. Следует стандартам investigation. Взаимодействует со стейкхолдерами под руководством."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Исследует ситуации со сложностью и неоднозначностью. Holistic view, root cause analysis. Выбирает подход и техники. Взаимодействует с operational stakeholders."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Планирует и ведёт analysis при значительной ambiguity. Advises по подходам. Holistic view широкого спектра проблем. Согласует conclusions с management-level stakeholders."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Инициирует analysis при extensive ambiguity и org impact. Продвигает holistic analysis до change programmes. Engages executive level. Определяет org policies для analysis."
+        }
+      ]
+    },
+    {
+      "id": "FEAS",
+      "name": "Feasibility assessment",
+      "name_ru": "Оценка осуществимости",
+      "summary": "Generating and evaluating options for change against financial, technical and business feasibility.",
+      "summary_ru": "Генерация и оценка опций изменений: feasibility, business case, cost/benefit, риски.",
+      "category": "business",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/feasibility-assessment",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Помогает с feasibility tasks. Собирает информацию для assessments. Поддерживает identification и документирование опций."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Поддерживает identification опций и feasibility. Применяет стандартные техники. Поддерживает cost/benefit и business cases."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Выбирает подходы feasibility. Identifies options, short-listing, assessment. Взаимодействует со стейкхолдерами. Готовит business cases с cost/benefit, impact, risk."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Управляет investigative work для feasibility. Advises по подходам. Готовит business cases для опций, включая cost/benefit, impact, risk analysis."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Устанавливает org framework для feasibility и business cases. Ведёт assessments для initiatives с significant org impact. Presentations senior stakeholders."
+        }
+      ]
+    },
+    {
+      "id": "MEAS",
+      "name": "Measurement",
+      "name_ru": "Измерение и метрики",
+      "summary": "Planning and implementing measurement of processes, products and services to assess performance and progress.",
+      "summary_ru": "Метрики продукта и процессов: выбор measures, сбор данных, отчётность, интерпретация для решений.",
+      "category": "analytics",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/measurement",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Помогает собирать и поддерживать данные для measurement. Применяет стандартные процедуры измерения. Генерирует и распространяет отчёты."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Поддерживает specification measures, сбор и maintenance данных. Генерирует отчёты. Использует tools для routine analysis. Улучшает data collection."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Identifies и prioritises measures, scales, targets. Разрабатывает measurement methods. Specified base/derived measures, data collection, reporting formats."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Устанавливает measurement objectives и scope. Планирует improvements capability. Advises по effective use of measures. Вносит вклад в org policies measurement."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Ведёт развитие org capabilities measurement. Создаёт measurement framework, aligns с business objectives. Policies, standards, resources для adoption."
+        }
+      ]
+    },
+    {
+      "id": "DEMG",
+      "name": "Delivery management",
+      "name_ru": "Управление поставкой",
+      "summary": "Managing collaborative delivery of products or services through effective processes, planning and stakeholder coordination.",
+      "summary_ru": "Управление delivery-командой: планирование, приоритизация, риски, progress reporting, continuous improvement.",
+      "category": "delivery",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/delivery-management",
+      "levels": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Управляет routine delivery небольших продуктов/частей сервиса. Следует методологиям и quality processes. Координирует planning, tracks progress/risks/issues. Поддерживает collaborative environment."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Управляет delivery для small-to-medium инициатив. Применяет delivery methodologies, ведёт teams. Prioritisation, iteration planning, incremental value. Communicates progress/risks/issues."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Лидирует delivery крупных/complex инициатив. Адаптирует подходы. Leadership нескольким teams. Proactive risk/dependency/change management. Drives continuous improvement."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Определяет delivery strategy для multiple products/services. Aligns с org goals. Monitors performance, mitigates systemic risks. Sets direction и standards delivery management."
         }
       ]
     }
@@ -2161,6 +2457,580 @@
             },
             {
               "skill_id": "SINT",
+              "min_level": 3,
+              "priority": "optional",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-manager",
+      "name": "Product Manager",
+      "name_ru": "Продакт-менеджер",
+      "description": "Управляет продуктом на всём жизненном цикле: discovery, приоритизация, roadmap, delivery и метрики. Навыки SFIA product/business/delivery с акцентом на ценность для пользователя и бизнеса.",
+      "status": "active",
+      "assessment": {
+        "PROD": {
+          "2": {
+            "check": [
+              "Помогает с product-задачами под менторством: описание фич, release notes, FAQ",
+              "Собирает feedback пользователей/стейкхолдеров по шаблону",
+              "Мониторит базовые метрики использования по дашборду команды"
+            ],
+            "artifacts": [
+              "Оформленная user story / feature brief",
+              "Сводка feedback по фиче",
+              "Скрин дашборда с комментариями"
+            ]
+          },
+          "3": {
+            "check": [
+              "Ведёт backlog фичи/небольшого продукта: приоритизация, acceptance criteria",
+              "Мониторит результаты запусков, действует по данным и feedback",
+              "Координирует контент для adoption (help, onboarding, comms) с командой"
+            ],
+            "artifacts": [
+              "Приоритизированный backlog с rationale",
+              "Post-launch review с метриками",
+              "Короткий go/no-go по фиче"
+            ]
+          },
+          "4": {
+            "check": [
+              "Владеет roadmap продукта/стрима; балансирует value, риски, capacity",
+              "Использует research, интервью, analytics для discovery и приоритизации",
+              "Организует beta/trial и launch; отслеживает product performance"
+            ],
+            "artifacts": [
+              "Roadmap на квартал с outcome-целями",
+              "Discovery doc (problem → solution → metrics)",
+              "Launch plan + итоги первых недель"
+            ]
+          },
+          "5": {
+            "check": [
+              "Ведёт полный lifecycle продукта/линейки: vision, positioning, segments",
+              "Выбирает product development подход (discovery/delivery cadence)",
+              "Планирует retirement/transition; координирует customer testing на масштабе"
+            ],
+            "artifacts": [
+              "Product strategy / vision doc",
+              "Positioning и сегментация",
+              "Retirement или pivot plan с метриками"
+            ]
+          }
+        },
+        "REQM": {
+          "2": {
+            "check": [
+              "Elicitation простых требований по шаблону (user story, AC)",
+              "Помогает вести backlog и фиксировать изменения требований"
+            ],
+            "artifacts": [
+              "User stories с AC",
+              "Diff изменений в backlog"
+            ]
+          },
+          "3": {
+            "check": [
+              "Самостоятельно elicitation и документирование для фичи",
+              "Challenge неясных требований; traceability к цели/метрике",
+              "Управляет change requests в рамках политики команды"
+            ],
+            "artifacts": [
+              "PRD / feature spec",
+              "Матрица traceability (goal → requirement → test/metric)",
+              "Запись согласования scope change"
+            ]
+          },
+          "4": {
+            "check": [
+              "Ведёт requirements для инициатив средней сложности; фасилитирует стейкхолдеров",
+              "Effective prioritisation с trade-off'ами (scope/time/value)"
+            ],
+            "artifacts": [
+              "Epic breakdown",
+              "Prioritisation workshop notes",
+              "Signed-off backlog baseline"
+            ]
+          },
+          "5": {
+            "check": [
+              "Планирует requirements для крупных инициатив; negotiates competing priorities",
+              "Адаптирует methods (dual-track, SAFe backlog levels и т.п.) под контекст"
+            ],
+            "artifacts": [
+              "Requirements approach для программы",
+              "Conflict resolution log",
+              "Org contribution к standards"
+            ]
+          }
+        },
+        "RLMT": {
+          "4": {
+            "check": [
+              "Ведёт engagement-план для своих стейкхолдеров (biz, design, eng, support)",
+              "Собирает feedback, закрывает issues, улучшает communication"
+            ],
+            "artifacts": [
+              "Stakeholder map",
+              "Engagement/communications plan",
+              "Feedback summary"
+            ]
+          },
+          "5": {
+            "check": [
+              "Single point of contact по product для ключевых групп",
+              "Фасилитирует business decisions; переводит strategy в deliverables"
+            ],
+            "artifacts": [
+              "Decision log с alternatives",
+              "Steerco/exec update deck",
+              "Alignment notes cross-team"
+            ]
+          }
+        },
+        "BUSA": {
+          "2": {
+            "check": [
+              "Собирает данные для анализа проблемы: интервью, support tickets, метрики",
+              "Помогает структурировать findings под руководством"
+            ],
+            "artifacts": [
+              "Research notes",
+              "Problem statement draft"
+            ]
+          },
+          "3": {
+            "check": [
+              "Investigates straightforward business situations для фичи/улучшения",
+              "Формулирует проблему, гипотезу, рекомендации с evidence"
+            ],
+            "artifacts": [
+              "Opportunity assessment",
+              "Root cause notes (5 whys / fishbone lite)"
+            ]
+          },
+          "4": {
+            "check": [
+              "Анализирует ambiguous ситуации; holistic view проблем и возможностей",
+              "Root cause analysis; рекомендации с учётом org constraints"
+            ],
+            "artifacts": [
+              "Business analysis doc",
+              "Options comparison",
+              "Workshop outcomes"
+            ]
+          },
+          "5": {
+            "check": [
+              "Ведёт complex business situation analysis для стратегических инициатив",
+              "Согласует conclusions с management-level stakeholders"
+            ],
+            "artifacts": [
+              "Strategic opportunity brief",
+              "Executive summary с рекомендациями"
+            ]
+          }
+        },
+        "FEAS": {
+          "2": {
+            "check": [
+              "Собирает данные для rough feasibility (effort, dependencies, риски)"
+            ],
+            "artifacts": [
+              "Checklist feasibility",
+              "Rough t-shirt sizing notes"
+            ]
+          },
+          "3": {
+            "check": [
+              "Поддерживает business case: tangible costs/benefits, риски",
+              "Short-list опций с eng/design"
+            ],
+            "artifacts": [
+              "Lightweight business case",
+              "Option comparison table"
+            ]
+          },
+          "4": {
+            "check": [
+              "Готовит business case с cost/benefit, impact, risk для инициативы",
+              "Engages internal/external stakeholders за информацией"
+            ],
+            "artifacts": [
+              "Business case document",
+              "Risk register для инициативы"
+            ]
+          }
+        },
+        "MEAS": {
+          "2": {
+            "check": [
+              "Поддерживает сбор product-метрик по шаблону (DAU, conversion, NPS и т.п.)",
+              "Генерирует простые отчёты для команды"
+            ],
+            "artifacts": [
+              "Weekly metrics snapshot",
+              "Dashboard setup notes"
+            ]
+          },
+          "3": {
+            "check": [
+              "Определяет metrics для фичи (leading/lagging); следит за data quality",
+              "Интерпретирует routine analytics для product decisions"
+            ],
+            "artifacts": [
+              "Metric tree для фичи",
+              "Experiment readout"
+            ]
+          },
+          "4": {
+            "check": [
+              "Prioritises measures для продукта/стрима; design reporting",
+              "Помогает командам с measurement methods"
+            ],
+            "artifacts": [
+              "North star + input metrics framework",
+              "Custom report / cohort analysis"
+            ]
+          },
+          "5": {
+            "check": [
+              "Measurement objectives для product area; improves measurement capability",
+              "Advises по effective use of metrics; contributes to org standards"
+            ],
+            "artifacts": [
+              "Measurement strategy",
+              "Org metric glossary contribution"
+            ]
+          }
+        },
+        "DEMG": {
+          "3": {
+            "check": [
+              "Координирует routine delivery небольшой фичи: planning, risks, status",
+              "Следует delivery process команды; tracks progress"
+            ],
+            "artifacts": [
+              "Sprint/release plan",
+              "Risk/issue log",
+              "Status report"
+            ]
+          },
+          "4": {
+            "check": [
+              "Ведёт delivery medium инициатив; iteration planning, incremental value",
+              "Communicates progress/risks; quality of deliverables"
+            ],
+            "artifacts": [
+              "Delivery plan cross-team",
+              "Increment review notes",
+              "Retro actions"
+            ]
+          }
+        },
+        "HCEV": {
+          "2": {
+            "check": [
+              "Понимает базовые UX-принципы; описывает user flow для простой фичи",
+              "Согласует scope с дизайном по макетам"
+            ],
+            "artifacts": [
+              "User flow sketch",
+              "Feature brief с UX-контекстом"
+            ]
+          },
+          "3": {
+            "check": [
+              "Формулирует UX-требования в PRD; итерирует с design на прототипах",
+              "Учитывает usability/accessibility в acceptance criteria"
+            ],
+            "artifacts": [
+              "PRD с UX section",
+              "Prototype review notes"
+            ]
+          }
+        },
+        "USEV": {
+          "2": {
+            "check": [
+              "Собирает feedback по прототипу/MVP по шаблону (интервью, опрос)"
+            ],
+            "artifacts": [
+              "Interview guide + notes",
+              "Synthesis of feedback"
+            ]
+          },
+          "3": {
+            "check": [
+              "Проводит/организует usability evaluation; приоритизирует findings для backlog"
+            ],
+            "artifacts": [
+              "Usability test plan",
+              "Findings report с recommendations"
+            ]
+          }
+        },
+        "RELM": {
+          "2": {
+            "check": [
+              "По чеклисту готовит release comms, notes, координацию с QA/eng"
+            ],
+            "artifacts": [
+              "Release checklist PM",
+              "Release notes draft"
+            ]
+          },
+          "3": {
+            "check": [
+              "Координирует типовой релиз фичи: scope, comms, мониторинг post-release"
+            ],
+            "artifacts": [
+              "Release plan",
+              "Post-release monitoring notes"
+            ]
+          },
+          "4": {
+            "check": [
+              "Планирует релизы с зависимостями, staged rollout, rollback criteria"
+            ],
+            "artifacts": [
+              "Cross-team release plan",
+              "Post-release review с метриками"
+            ]
+          }
+        }
+      },
+      "grades": [
+        {
+          "grade": "junior",
+          "label": "Junior Product Manager",
+          "summary": "Помощь в product-активностях под менторством: сбор требований, контент, базовые метрики.",
+          "requirements": [
+            {
+              "skill_id": "PROD",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "REQM",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "BUSA",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "MEAS",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "HCEV",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": "Понимание UX при описании фич"
+            },
+            {
+              "skill_id": "FEAS",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "grade": "middle",
+          "label": "Middle Product Manager",
+          "summary": "Самостоятельное ведение фич/небольшого продукта: backlog, приоритизация, запуск, метрики.",
+          "requirements": [
+            {
+              "skill_id": "PROD",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "REQM",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "BUSA",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "MEAS",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "HCEV",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "USEV",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "FEAS",
+              "min_level": 3,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "RELM",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": "Координация релизов с командой"
+            }
+          ]
+        },
+        {
+          "grade": "senior",
+          "label": "Senior Product Manager",
+          "summary": "Владение продуктом/стримом: roadmap, стейкхолдеры, сложные trade-off'ы, outcome-метрики.",
+          "requirements": [
+            {
+              "skill_id": "PROD",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "REQM",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "RLMT",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "BUSA",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "MEAS",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "HCEV",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "USEV",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "RELM",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "FEAS",
+              "min_level": 4,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "DEMG",
+              "min_level": 3,
+              "priority": "optional",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "grade": "lead",
+          "label": "Lead Product Manager",
+          "summary": "Лидерство product-направления: lifecycle, portfolio thinking, стандарты discovery/delivery.",
+          "requirements": [
+            {
+              "skill_id": "PROD",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "REQM",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "RLMT",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "MEAS",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "RELM",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "DEMG",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "BUSA",
+              "min_level": 5,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "FEAS",
+              "min_level": 5,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "HCEV",
+              "min_level": 3,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "USEV",
               "min_level": 3,
               "priority": "optional",
               "notes": ""

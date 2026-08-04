@@ -15,3 +15,10 @@
 | METL | Методы и инструменты | platform | 2–6 | [metl.md](metl.md) |
 | QUAS | Обеспечение качества | quality | 2–6 | [quas.md](quas.md) |
 | RELM | Управление релизами | delivery | 2–6 | [relm.md](relm.md) |
+| PROD | Управление продуктом | product | 2–6 | [prod.md](prod.md) |
+| REQM | Определение и управление требованиями | product | 2–6 | [reqm.md](reqm.md) |
+| RLMT | Управление отношениями со стейкхолдерами | stakeholder | 4–7 | [rlmt.md](rlmt.md) |
+| BUSA | Анализ бизнес-ситуации | business | 2–6 | [busa.md](busa.md) |
+| FEAS | Оценка осуществимости | business | 2–6 | [feas.md](feas.md) |
+| MEAS | Измерение и метрики | analytics | 2–6 | [meas.md](meas.md) |
+| DEMG | Управление поставкой | delivery | 3–6 | [demg.md](demg.md) |
