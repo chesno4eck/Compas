@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://competency-matrix.local/schema/role.schema.json",
+  "title": "Role",
+  "description": "Роль команды разработки",
+  "type": "object",
+  "required": ["id", "name", "description", "grades", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "description": "Например ios-developer"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "grades": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": ["intern", "junior", "middle", "senior", "lead", "principal"]
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "review", "active", "deprecated"]
+    }
+  }
+}

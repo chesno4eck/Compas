@@ -1,0 +1,2208 @@
+{
+  "version": "0.3.0",
+  "sfia_version": "9",
+  "updated": "2026-08-04",
+  "title": "Матрица компетенций команды разработки",
+  "skills": [
+    {
+      "id": "PROG",
+      "name": "Programming / software development",
+      "name_ru": "Программирование / разработка ПО",
+      "summary": "Developing software components to deliver value to stakeholders.",
+      "summary_ru": "Создание программных компонентов, балансирующих функциональность, безопасность и сопровождаемость.",
+      "category": "development",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/programming-software-development",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Проектирует, пишет, проверяет, тестирует, документирует и рефакторит простые программы/скрипты. Применяет согласованные стандарты, инструменты и базовые практики безопасности. Ревьюит свою работу."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Работает с умеренно сложным кодом. Применяет стандарты, инструменты и меры безопасности. Отслеживает прогресс, выявляет проблемы, предлагает решения. Участвует в совместных ревью."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Реализует сложный код и интеграционные сервисы. Вносит вклад в выбор методов, инструментов и security-практик. Ведёт ревью коллег, участвует в ревью своей работы."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Берёт техническую ответственность на всех этапах разработки. Планирует construction-активности, адаптирует методы и инструменты. Контролирует стандарты команды, включая security. Вносит вклад в орг. политики разработки."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Разрабатывает орг. политики и стандарты construction/рефакторинга. Ведёт стратегические крупные проекты. Развивает методы и capabilities, обеспечивает adoption стандартов."
+        }
+      ]
+    },
+    {
+      "id": "SWDN",
+      "name": "Software design",
+      "name_ru": "Проектирование ПО",
+      "summary": "Architecting and designing software to meet specified requirements, ensuring adherence to established standards and principles.",
+      "summary_ru": "Проектирование ПО и компонентов под требования: архитектура, паттерны, trade-off'ы, включая security и non-functional.",
+      "category": "development",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/software-design",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Создаёт и документирует детальные дизайны простых приложений/компонентов. Применяет согласованные техники моделирования, стандарты и паттерны. Вносит вклад в дизайн частей крупных систем. Ревьюит свою работу."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Выполняет полный дизайн умеренно сложных приложений/компонентов. Специфицирует user/system interfaces. Создаёт несколько design views под функциональные и non-functional требования, включая security."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Проектирует сложные приложения, компоненты и модули. Коммуницирует design views стейкхолдерам. Оценивает альтернативы и trade-off'ы, прототипирует поведение. Ведёт ревью чужих дизайнов."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Проектирует крупные/сложные приложения. Адаптирует методы дизайна, проводит impact analysis, управляет рисками. Обеспечивает баланс функциональных, quality и security требований. Вносит вклад в орг. стандарты software design."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Выбирает и развивает методы software design/architecture. Задаёт архитектурные принципы, паттерны и фреймворки для организации. Обеспечивает соответствие техническим стратегиям и security."
+        }
+      ]
+    },
+    {
+      "id": "SINT",
+      "name": "Systems integration and build",
+      "name_ru": "Интеграция систем и сборка",
+      "summary": "Planning, implementing and controlling activities to integrate system elements, subsystems and interfaces to create operational systems, products or services.",
+      "summary_ru": "Интеграция компонентов, CI/сборки, окружения и интеграционное тестирование — включая automation и continuous integration.",
+      "category": "development",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/systems-integration-and-build",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Собирает builds из компонентов с помощью согласованных automation-инструментов. Выполняет интеграционные тесты по спецификации, фиксирует отказы, сообщает о рисках."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Определяет модули, зависимости и build definition. Принимает компоненты по критериям, настраивает окружение, проводит интеграционные тесты, диагностирует дефекты, готовит отчёты."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Обеспечивает конфигурацию компонентов для системного тестирования. Согласует integration plans, проектирует сложные builds, улучшает процессы и инструменты интеграции."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Планирует развитие орг. capabilities интеграции и CI/automation. Выбирает инструменты и процессы, даёт authoritative advice, мониторит стандарты, вносит вклад в политики."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Возглавляет развитие орг. capabilities systems integration and build. Задаёт политики и стандарты, обеспечивает ресурсы и adoption."
+        }
+      ]
+    },
+    {
+      "id": "TEST",
+      "name": "Functional testing",
+      "name_ru": "Функциональное тестирование",
+      "summary": "Assessing specified or unspecified functional requirements and characteristics of products, systems and services through investigation and testing.",
+      "summary_ru": "Проверка функциональности продуктов и интерфейсов: тест-дизайн, выполнение, дефекты, риск-ориентированное покрытие (включая automation).",
+      "category": "quality",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/functional-testing",
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 1,
+          "title": "Follow",
+          "text": "Выполняет готовые ручные functional test scripts под контролем. Настраивает окружение, использует базовые automated tools, фиксирует результаты и дефекты."
+        },
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Помогает проектировать тест-кейсы и скрипты. Готовит тестовые данные, настраивает окружения. Выполняет ручные и automated functional tests, анализирует результаты и риски."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Проектирует детальные тест-кейсы (сценарии, границы). Участвует в ревью требований/дизайна, проводит exploratory testing, автоматизирует повторяемые проверки, логирует дефекты."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Выбирает подходы к functional testing с учётом риска и сложности. Развивает и выполняет комплексные test plans, управляет scalable automation frameworks, отчитывается в том числе по работе других."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Ведёт functional testing на всех этапах разработки. Даёт authoritative advice по методам и фреймворкам, улучшает покрытие и эффективность, вносит вклад в орг. политики тестирования."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Разрабатывает орг. политики и стандарты functional testing. Ведёт стратегические testing initiatives, координирует с другими видами тестирования, развивает культуру качества."
+        }
+      ]
+    },
+    {
+      "id": "NFTS",
+      "name": "Non-functional testing",
+      "name_ru": "Нефункциональное тестирование",
+      "summary": "Assessing systems and services to evaluate performance, security, scalability and other non-functional qualities against requirements or expected standards.",
+      "summary_ru": "Оценка performance, security, scalability, reliability и других non-functional качеств системы.",
+      "category": "quality",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/non-functional-testing",
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 1,
+          "title": "Follow",
+          "text": "Выполняет заданные non-functional test scripts под контролем (например, performance). Настраивает базовое окружение, записывает результаты."
+        },
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Помогает проектировать non-functional кейсы и скрипты. Готовит данные, конфигурирует окружения, выполняет ручные и automated NFT, отчитывается о рисках."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Проектирует NFT-кейсы по критериям качеств системы. Готовит реалистичные данные/окружения, автоматизирует повторяемые тесты, анализирует coverage non-functional атрибутов."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Выбирает NFT-подходы с учётом критичности. Развивает end-to-end планы, сложные окружения, risk-based приоритизацию и отчётность, включая работу других."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Планирует NFT на всех этапах. Даёт экспертные рекомендации по методам и фреймворкам, улучшает надёжность тестирования, вносит вклад в орг. стандарты."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Задаёт орг. политики NFT, ведёт стратегические активности, развивает capabilities и культуру качества non-functional проверок."
+        }
+      ]
+    },
+    {
+      "id": "HCEV",
+      "name": "User experience design",
+      "name_ru": "Проектирование пользовательского опыта",
+      "summary": "Producing design concepts and prototypes for user interactions and experiences of a product, system or service.",
+      "summary_ru": "Проектирование взаимодействий и интерфейсов: usability, accessibility, прототипы, визуальные и interaction-паттерны.",
+      "category": "ux",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/user-experience-design",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Помогает создавать UX-элементы под контролем. Следует процедурам и гайдлайнам, поддерживает документацию."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Применяет стандартные техники дизайна взаимодействий для компонентов. Учитывает usability/accessibility/security требования, создаёт design artefacts, вносит вклад в общий UX как часть команды."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Выбирает инструменты, методы и паттерны для UX продукта/сервиса. Переводит концепции в прототипы, оценивает альтернативы с учётом performance, security, usability и a11y."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Планирует и ведёт UX design activities. Задаёт подходы, итеративно встраивает feedback, обеспечивает интеграцию visual/branding элементов."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Обеспечивает орг. commitment к UX/usability/accessibility стратегиям. Задаёт политики и стандарты UX design, ведёт крупные программы."
+        }
+      ]
+    },
+    {
+      "id": "USEV",
+      "name": "User experience evaluation",
+      "name_ru": "Оценка пользовательского опыта",
+      "summary": "Validating systems, products or services against user experience goals, metrics and targets.",
+      "summary_ru": "Валидация UX: usability/accessibility проверки, сбор feedback, интерпретация результатов и рекомендации.",
+      "category": "ux",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/user-experience-evaluation",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Помогает готовить окружение и инструменты для оценки. Участвует в сборе feedback по прототипам и дизайнам."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Оценивает варианты дизайна и прототипы, тестирует usability/accessibility компонентов, администрирует evaluations, анализирует данные и рекомендует действия."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Выбирает инструменты и техники оценки UX. Валидирует security/usability/a11y требования, интерпретирует результаты, приоритизирует проблемы."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Управляет UX evaluation. Гарантирует соблюдение практик, консультирует по типу оценки и вовлечению пользователей, итеративно работает с design-командами."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Задаёт высокие стандарты user interaction, определяет методы usability/a11y/security evaluation, развивает capabilities и сообщества пользователей для оценки."
+        }
+      ]
+    },
+    {
+      "id": "ACIN",
+      "name": "Accessibility and inclusion",
+      "name_ru": "Доступность и инклюзивность",
+      "summary": "Providing advice, assurance and delivery practices so products and services are accessible and inclusive.",
+      "summary_ru": "Обеспечение доступности и инклюзивности продуктов: тестирование, аудиты, влияние на дизайн и compliance.",
+      "category": "ux",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/accessibility-and-inclusion",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Помогает с базовым accessibility testing и сбором информации для reviews. Поддерживает выполнение predefined a11y-тестов, документирует результаты."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Анализирует accessibility requirements. Проектирует и выполняет a11y-тесты под руководством, структурированно отчитывается, поддерживает аудиты."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Объясняет accessibility-факторы стейкхолдерам, влияет на дизайн. Планирует a11y-тестирование, оценивает compliance и риски."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Ведёт accessibility governance. Даёт экспертные рекомендации, задаёт орг. подходы к a11y-тестированию, продвигает культуру shared responsibility."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Задаёт стратегическое направление accessibility and inclusion. Определяет политики и governance, обеспечивает ресурсы и навыки для assurance."
+        }
+      ]
+    },
+    {
+      "id": "METL",
+      "name": "Methods and tools",
+      "name_ru": "Методы и инструменты",
+      "summary": "Leads the adoption, management and optimisation of methods and tools, ensuring effective use and alignment with organisational objectives.",
+      "summary_ru": "Выбор, настройка, поддержка и улучшение методов и инструментов разработки/тестирования/доставки.",
+      "category": "platform",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/methods-and-tools",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Оказывает рутинную поддержку по использованию согласованных методов и инструментов. Помогает конфигурировать/поддерживать tools, обновлять документацию."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Поддерживает использование существующих методов и инструментов. Конфигурирует и сопровождает их в известном контексте, обновляет документацию, решает базовые проблемы."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Рекомендует решения стейкхолдерам. Консультирует по adoption методов/инструментов, адаптирует процессы под нужды, улучшает применение tools."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Даёт authoritative advice и лидирует adoption. Выбирает методы/инструменты, внедряет на уровне программ/команд, оценивает value, вносит вклад в орг. политики."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Разрабатывает орг. политики methods and tools. Задаёт направление внедрения техник и методологий, развивает орг. capabilities, обеспечивает commitment и continuous improvement."
+        }
+      ]
+    },
+    {
+      "id": "QUAS",
+      "name": "Quality assurance",
+      "name_ru": "Обеспечение качества",
+      "summary": "Providing confidence to internal and external stakeholders that quality requirements will be fulfilled.",
+      "summary_ru": "Оценка процессов и продуктов на соответствие стандартам качества: аудиты, non-compliance, corrective actions.",
+      "category": "quality",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/quality-assurance",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Помогает с QA-задачами под контролем: сбор evidence, проверка записей на compliance, выявление и сообщение о quality issues."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Участвует в сборе evidence и формальных audits/reviews. Проверяет, что тестирование и quality control выполнялись. Выявляет non-compliances и аномалии."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Планирует и проводит assessment activity. Готовит compliance reports, оценивает риски non-compliance, предлагает corrective actions, консультирует по стандартам."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Ведёт формальные reviews сложных/кросс-функциональных областей. Выявляет причины non-compliance, назначает владельцев corrective actions, надзирает assurance других."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Отвечает за орг. подход к quality assurance. Обеспечивает robust процессы, планирует ресурсы, учитывает emerging technology и regulation, мониторит compliance."
+        }
+      ]
+    },
+    {
+      "id": "RELM",
+      "name": "Release management",
+      "name_ru": "Управление релизами",
+      "summary": "Managing the release of new and updated services into production, ensuring alignment with business objectives and compliance standards.",
+      "summary_ru": "Планирование и проведение релизов в production: расписание, качество, коммуникация, compliance.",
+      "category": "delivery",
+      "sfia_url": "https://sfia-online.org/en/sfia-9/skills/release-and-deployment",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "active",
+      "levels_detail": [
+        {
+          "level": 2,
+          "title": "Assist",
+          "text": "Помогает с задачами release management под контролем. Собирает данные для планирования, готовит материалы релиза, ведёт записи, участвует в базовых проверках качества и разборе issues."
+        },
+        {
+          "level": 3,
+          "title": "Apply",
+          "text": "Поддерживает планирование и расписание релизов. Координирует активности с командами, следует определённым процессам, участвует в QA релиза, выявляет и устраняет проблемы процесса, отчитывается о outcomes."
+        },
+        {
+          "level": 4,
+          "title": "Enable",
+          "text": "Планирует и составляет расписание релизов в соответствии с бизнес-целями. Координирует несколько команд/стейкхолдеров, ведёт lifecycle релиза, обеспечивает quality/security/compliance, проводит post-release reviews."
+        },
+        {
+          "level": 5,
+          "title": "Ensure, advise",
+          "text": "Развивает release approaches, процессы и automation. Надзирает сложные large-scale релизы и координацию across programmes, обеспечивает возможность rollback, ведёт continuous improvement."
+        },
+        {
+          "level": 6,
+          "title": "Initiate, influence",
+          "text": "Определяет орг. стратегии, политики и стандарты release management. Выравнивает релизы со стратегией бизнеса, обеспечивает ресурсы/tools, продвигает adoption новых техник."
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "ios-developer",
+      "name": "iOS Developer",
+      "name_ru": "iOS-разработчик",
+      "description": "Разрабатывает и сопровождает нативные приложения на платформе Apple (iOS/iPadOS), применяя навыки software engineering из SFIA в мобильном контексте.",
+      "status": "active",
+      "assessment": {
+        "PROG": {
+          "2": {
+            "check": [
+              "Пишет простые экраны/утилиты на Swift (optionals, коллекции, closures) по задаче",
+              "Использует UIKit и/или SwiftUI на типовых задачах под менторством",
+              "Не хранит секреты в коде; базово соблюдает privacy-ограничения",
+              "Перед сдачей сам просматривает свой PR, правит замечания"
+            ],
+            "artifacts": [
+              "PR с простой фичей или багфиксом",
+              "Скрин/запись экрана по задаче",
+              "Простой unit-тест по образцу команды"
+            ]
+          },
+          "3": {
+            "check": [
+              "Самостоятельно закрывает фичу end-to-end: сеть + состояние UI + ошибки/загрузка",
+              "Уверенно применяет concurrency (GCD и/или async/await), понимает ARC / retain cycles",
+              "Следует архитектурным соглашениям команды (MVC / MVVM / аналоги)",
+              "Пишет/дополняет unit-тесты на новую логику; участвует в code review"
+            ],
+            "artifacts": [
+              "PR фичи с сетевым слоем и UI-состояниями",
+              "Ревью с содержательными комментариями",
+              "Разбор бага с root cause в тикете"
+            ]
+          },
+          "4": {
+            "check": [
+              "Реализует сложные модули/интеграции: deep links, background, SDK, межмодульное взаимодействие",
+              "Влияет на выбор подходов, зависимостей (SPM и т.п.), security-практик в команде",
+              "Ведёт ревью коллег; проводит рефакторинг legacy с сохранением поведения",
+              "Оценивает риски релиза (регрессии, миграции, совместимость OS/устройств)"
+            ],
+            "artifacts": [
+              "RFC/ADR по модульности или архитектуре фичи",
+              "Серия ревью с планой качества",
+              "Рефакторинг с метриками / постмортем инцидента"
+            ]
+          },
+          "5": {
+            "check": [
+              "Берёт тех. ответственность за iOS-стрим: от требований до поставки и оценки качества",
+              "Планирует construction, выбирает SwiftUI/UIKit/модульность/feature flags под контекст",
+              "Контролирует стандарты команды, включая privacy, Keychain, supply-chain зависимостей",
+              "Вносит вклад в гайдлайны iOS-разработки сообщества/организации"
+            ],
+            "artifacts": [
+              "Принятые стандарты/гайды",
+              "План тех. инициативы с метриками успеха",
+              "Менторство с измеримым ростом людей"
+            ]
+          }
+        },
+        "SWDN": {
+          "2": {
+            "check": [
+              "Описывает простой экран/компонент: ответственность, входы/выходы, базовый поток данных",
+              "Применяет паттерны команды (например, простой MVVM) под контролем"
+            ],
+            "artifacts": [
+              "Схема/короткий design note к задаче",
+              "Диаграмма потока данных экрана"
+            ]
+          },
+          "3": {
+            "check": [
+              "Проектирует умеренно сложный модуль: слои, интерфейсы, состояния, ошибки",
+              "Учитывает lifecycle UIViewController/SwiftUI, навигацию, базовые non-functional"
+            ],
+            "artifacts": [
+              "Design doc модуля",
+              "Интерфейсы протоколов / границы модуля в PR"
+            ]
+          },
+          "4": {
+            "check": [
+              "Проектирует сложные модули и интеграции с trade-off'ами (модульность, тестируемость, performance)",
+              "Ведёт ревью дизайнов коллег; прототипирует спорные решения"
+            ],
+            "artifacts": [
+              "ADR с альтернативами",
+              "Ревью архитектурного предложения"
+            ]
+          },
+          "5": {
+            "check": [
+              "Задаёт design/architecture подход для крупной зоны iOS-продукта",
+              "Балансирует quality, security, поддерживаемость; влияет на стандарты дизайна"
+            ],
+            "artifacts": [
+              "Архитектурные принципы стрима",
+              "Impact analysis крупного изменения"
+            ]
+          }
+        },
+        "SINT": {
+          "2": {
+            "check": [
+              "Собирает проект в Xcode / по CI-инструкции команды, прогоняет заданные проверки",
+              "Фиксирует падения сборки/тестов с воспроизведением"
+            ],
+            "artifacts": [
+              "Лог успешной/упавшей сборки",
+              "Скрин CI job"
+            ]
+          },
+          "3": {
+            "check": [
+              "Настраивает зависимости модуля (SPM/CocoaPods), понимает схему targets/schemes",
+              "Чинит типовые поломки CI; готовит build для TestFlight/внутренней раздачи"
+            ],
+            "artifacts": [
+              "PR с правкой Package.swift / CI config",
+              "Успешный TestFlight build"
+            ]
+          },
+          "4": {
+            "check": [
+              "Проектирует сложные integration builds, модульную сборку, ускорение CI",
+              "Согласует интеграцию с платформенной/backend-командой"
+            ],
+            "artifacts": [
+              "Улучшение pipeline с метрикой времени",
+              "План интеграции крупной фичи"
+            ]
+          },
+          "5": {
+            "check": [
+              "Развивает CI/CD и integration capabilities iOS-направления",
+              "Выбирает инструменты сборки/дистрибуции, задаёт стандарты"
+            ],
+            "artifacts": [
+              "Стандарт CI для мобилки",
+              "Роллаут нового build tooling"
+            ]
+          }
+        },
+        "TEST": {
+          "1": {
+            "check": [
+              "Прогоняет готовый чеклист по своей задаче под mentorship"
+            ],
+            "artifacts": [
+              "Отмеченный чеклист в тикете"
+            ]
+          },
+          "2": {
+            "check": [
+              "Составляет короткий чеклист к своей фиче (happy path + базовые негативные)",
+              "Заводит баги с шагами, окружением (устройство/OS), ожидаемым/фактическим"
+            ],
+            "artifacts": [
+              "Чеклист к PR",
+              "Заведённый баг с полным описанием"
+            ]
+          }
+        },
+        "HCEV": {
+          "2": {
+            "check": [
+              "Верстает простые экраны по макету (UIKit/SwiftUI), соблюдает отступы и системные компоненты"
+            ],
+            "artifacts": [
+              "PR с UI по макету",
+              "Сравнение с дизайном"
+            ]
+          },
+          "3": {
+            "check": [
+              "Собирает сложные экраны, кастомные компоненты, стандартную навигацию",
+              "Согласует реализуемость с дизайнером; учитывает Dynamic Type / тёмную тему где принято"
+            ],
+            "artifacts": [
+              "Переиспользуемый UI-компонент",
+              "Комментарии/итерации с дизайном"
+            ]
+          },
+          "4": {
+            "check": [
+              "Проектирует interaction-сложные UI: кастомные transitions, сложные состояния",
+              "Влияет на паттерны UI в команде / дизайн-системе"
+            ],
+            "artifacts": [
+              "Компонент DS",
+              "Кастомный transition / сложная анимация"
+            ]
+          }
+        },
+        "ACIN": {
+          "2": {
+            "check": [
+              "Прогоняет базовые VoiceOver/Dynamic Type проверки по чеклисту"
+            ],
+            "artifacts": [
+              "Заметки a11y-прогона"
+            ]
+          },
+          "3": {
+            "check": [
+              "Делает accessibility labels/traits для своих экранов",
+              "Проверяет контраст/крупный текст на типовых сценариях"
+            ],
+            "artifacts": [
+              "PR с a11y-правками",
+              "Чеклист VoiceOver по фиче"
+            ]
+          }
+        },
+        "NFTS": {
+          "2": {
+            "check": [
+              "Смотрит Instruments (Time Profiler / Allocations) на явные проблемы своей фичи",
+              "Ловит очевидные зависания главного потока / лишние перерисовки"
+            ],
+            "artifacts": [
+              "Скрин/заметка Instruments",
+              "Фикс jank/memory в PR"
+            ]
+          },
+          "3": {
+            "check": [
+              "Планирует простые performance/stability проверки для рискованных изменений",
+              "Умеет интерпретировать базовые метрики крэшей/ANR-аналогов"
+            ],
+            "artifacts": [
+              "Короткий NFT-чеклист к релизу фичи",
+              "Разбор крэша"
+            ]
+          }
+        },
+        "METL": {
+          "2": {
+            "check": [
+              "Работает в Xcode/Git по гайдам команды; обновляет README/заметки по просьбе"
+            ],
+            "artifacts": [
+              "PR по шаблону команды"
+            ]
+          },
+          "3": {
+            "check": [
+              "Настраивает линтеры/форматтеры/схемы в своём модуле; чинит типовые tool-issues"
+            ],
+            "artifacts": [
+              "PR с конфигом SwiftLint/SwiftFormat и т.п."
+            ]
+          },
+          "4": {
+            "check": [
+              "Рекомендует и внедряет инструменты iOS-команды; пишет короткие гайды"
+            ],
+            "artifacts": [
+              "Гайд по tool",
+              "Adoption нового шаблона/генератора"
+            ]
+          },
+          "5": {
+            "check": [
+              "Выбирает toolchain для направления; оценивает value инструментов"
+            ],
+            "artifacts": [
+              "Решение о выборе tool с критериями",
+              "Политика использования AI/IDE в команде"
+            ]
+          }
+        },
+        "RELM": {
+          "2": {
+            "check": [
+              "По чеклисту готовит материалы релиза (notes, сборка) под контролем"
+            ],
+            "artifacts": [
+              "Заполненный release checklist"
+            ]
+          },
+          "3": {
+            "check": [
+              "Проводит типовой релиз фичи в TestFlight/store flow команды",
+              "Ловит блокеры релиза"
+            ],
+            "artifacts": [
+              "Release notes + статус раскатки"
+            ]
+          },
+          "4": {
+            "check": [
+              "Планирует релиз с зависимостями, staged rollout / feature flags"
+            ],
+            "artifacts": [
+              "План релиза",
+              "Post-release review"
+            ]
+          }
+        }
+      },
+      "grades": [
+        {
+          "grade": "junior",
+          "label": "Junior iOS Developer",
+          "summary": "Простые задачи под менторством; базовый construction и самопроверка.",
+          "requirements": [
+            {
+              "skill_id": "PROG",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SWDN",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "TEST",
+              "min_level": 1,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "METL",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "HCEV",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": "Реализация UI по макетам/гайдлайнам"
+            },
+            {
+              "skill_id": "ACIN",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "SINT",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "grade": "middle",
+          "label": "Middle iOS Developer",
+          "summary": "Самостоятельные фичи умеренной сложности; самопроверка на уровне Assist (ниже, чем у Middle QA).",
+          "requirements": [
+            {
+              "skill_id": "PROG",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SWDN",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SINT",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "TEST",
+              "min_level": 2,
+              "priority": "required",
+              "notes": "Самопроверка фичи; у Middle QA порог TEST = 3"
+            },
+            {
+              "skill_id": "METL",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "HCEV",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "ACIN",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "NFTS",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": "Базовые performance/stability проверки"
+            },
+            {
+              "skill_id": "RELM",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "grade": "senior",
+          "label": "Senior iOS Developer",
+          "summary": "Сложный дизайн и интеграции, вклад в методы/инструменты, менторство.",
+          "requirements": [
+            {
+              "skill_id": "PROG",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SWDN",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SINT",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "TEST",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "METL",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "HCEV",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "ACIN",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "NFTS",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "RELM",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "USEV",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "grade": "lead",
+          "label": "Lead iOS Developer",
+          "summary": "Техлидерство: стандарты construction, design и integration на стриме/направлении.",
+          "requirements": [
+            {
+              "skill_id": "PROG",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SWDN",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SINT",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "METL",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "RELM",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "ACIN",
+              "min_level": 3,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "TEST",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "NFTS",
+              "min_level": 3,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "HCEV",
+              "min_level": 3,
+              "priority": "optional",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frontend-developer",
+      "name": "Frontend Developer",
+      "name_ru": "Frontend-разработчик",
+      "description": "Разрабатывает пользовательские веб/клиентские интерфейсы. Тот же набор SFIA software engineering skills, с акцентом на UX design и accessibility.",
+      "status": "active",
+      "assessment": {
+        "PROG": {
+          "2": {
+            "check": [
+              "Пишет простые UI-компоненты/страницы на стеке команды (JS/TS + фреймворк)",
+              "Следует code style, линтерам; базовая работа с Git и PR",
+              "Не хардкодит секреты; понимает базовые XSS-риски (не вставляет сырой HTML без нужды)"
+            ],
+            "artifacts": [
+              "PR с простым компонентом",
+              "Скрин UI",
+              "Прохождение линтера/CI"
+            ]
+          },
+          "3": {
+            "check": [
+              "Самостоятельно закрывает фичу: UI + данные (API/state) + ошибки/loading",
+              "Типизация (TS), границы компонентов, базольные тесты где принято",
+              "Участвует в review; предлагает практичные фиксы проблем"
+            ],
+            "artifacts": [
+              "PR фичи со state/API",
+              "Unit/component тест",
+              "Ревью с замечаниями по качеству"
+            ]
+          },
+          "4": {
+            "check": [
+              "Реализует сложные клиентские модули: сложный state, микрофронт/пакеты, интеграции SDK",
+              "Влияет на выбор библиотек, bundler/CI практик, security (CSP, зависимость supply-chain)",
+              "Ведёт ревью; рефакторит legacy UI без регрессий"
+            ],
+            "artifacts": [
+              "ADR по фронтенд-архитектуре",
+              "Сложный PR + ревью коллег",
+              "Рефакторинг модуля"
+            ]
+          },
+          "5": {
+            "check": [
+              "Отвечает за construction frontend-стрима: стандарты кода, качество поставки",
+              "Адаптирует методы (SSR/SPA/острова, монорепо) под продукт",
+              "Вносит вклад в орг. гайдлайны фронтенда"
+            ],
+            "artifacts": [
+              "Стандарты фронтенда",
+              "План тех. инициативы",
+              "Метрики качества (бандл, ошибки)"
+            ]
+          }
+        },
+        "SWDN": {
+          "2": {
+            "check": [
+              "Описывает простой компонент: props/state, ответственность, события"
+            ],
+            "artifacts": [
+              "Короткий design note / Storybook story"
+            ]
+          },
+          "3": {
+            "check": [
+              "Проектирует составные UI-модули и контракты данных",
+              "Учитывает accessibility и performance на уровне структуры компонентов"
+            ],
+            "artifacts": [
+              "Схема компонент/потока данных",
+              "Публичный API компонента"
+            ]
+          },
+          "4": {
+            "check": [
+              "Проектирует сложные клиентские подсистемы (дизайн-система, routing, data layer)",
+              "Сравнивает альтернативы (состояние, кэш, границы бандла)"
+            ],
+            "artifacts": [
+              "ADR",
+              "Прототип спорного UX/техрешения"
+            ]
+          },
+          "5": {
+            "check": [
+              "Задаёт frontend design standards для продукта/направления"
+            ],
+            "artifacts": [
+              "Архитектурные принципы фронта",
+              "Ревью крупных дизайн-решений"
+            ]
+          }
+        },
+        "SINT": {
+          "2": {
+            "check": [
+              "Собирает проект (npm/pnpm/yarn), гоняет локальные тесты/lint по инструкции"
+            ],
+            "artifacts": [
+              "CI green на своём PR"
+            ]
+          },
+          "3": {
+            "check": [
+              "Настраивает env/сборку фичи, feature flags, базовые preview-деплои",
+              "Чинит типовые поломки pipeline"
+            ],
+            "artifacts": [
+              "PR с CI/env правкой",
+              "Preview URL фичи"
+            ]
+          },
+          "4": {
+            "check": [
+              "Улучшает integration/build: split bundles, caching CI, контракты с backend"
+            ],
+            "artifacts": [
+              "Ускорение CI/бандла с метрикой",
+              "План интеграции"
+            ]
+          },
+          "5": {
+            "check": [
+              "Развивает build/deploy capabilities фронтенд-направления"
+            ],
+            "artifacts": [
+              "Стандарт pipeline",
+              "Выбор bundler/hosting подхода"
+            ]
+          }
+        },
+        "TEST": {
+          "1": {
+            "check": [
+              "Прогоняет готовый чеклист UI под mentorship"
+            ],
+            "artifacts": [
+              "Отмеченный чеклист"
+            ]
+          },
+          "2": {
+            "check": [
+              "Составляет чеклист к своей UI-фиче (браузеры/адаптив по договорённости)",
+              "Оформляет баги с шагами и окружением"
+            ],
+            "artifacts": [
+              "Чеклист к PR",
+              "Баг-репорт"
+            ]
+          }
+        },
+        "HCEV": {
+          "2": {
+            "check": [
+              "Верстает по макету/дизайн-системе; соблюдает spacing/типографику"
+            ],
+            "artifacts": [
+              "PR + сравнение с макетом"
+            ]
+          },
+          "3": {
+            "check": [
+              "Делает сложные интерфейсы, адаптив, состояния компонентов",
+              "Итеративно согласует с дизайном; применяет brand/visual guidelines"
+            ],
+            "artifacts": [
+              "Сложный UI PR",
+              "Storybook/пример состояний"
+            ]
+          },
+          "4": {
+            "check": [
+              "Выбирает interaction-паттерны, прототипирует UX-спорные места",
+              "Влияет на дизайн-систему и паттерны продукта"
+            ],
+            "artifacts": [
+              "Вклад в DS",
+              "Прототип + обоснование trade-off"
+            ]
+          }
+        },
+        "ACIN": {
+          "2": {
+            "check": [
+              "Прогоняет базовые a11y-проверки (клавиатура, контраст) по чеклисту"
+            ],
+            "artifacts": [
+              "Заметки прогона axe/Lighthouse a11y"
+            ]
+          },
+          "3": {
+            "check": [
+              "Делает семантическую вёрстку, роли/имена, фокус-менеджмент на своих экранах",
+              "Чинит типовые WCAG-замечания"
+            ],
+            "artifacts": [
+              "PR с a11y-фиксами",
+              "Отчёт axe/ручной keyboard-прогон"
+            ]
+          },
+          "4": {
+            "check": [
+              "Влияет на доступность дизайна фичи; планирует a11y-тесты",
+              "Оценивает риски compliance"
+            ],
+            "artifacts": [
+              "A11y review фичи",
+              "Чеклист/стандарт для команды"
+            ]
+          }
+        },
+        "NFTS": {
+          "2": {
+            "check": [
+              "Смотрит Web Vitals/Lighthouse на своей странице; ловит очевидный jank"
+            ],
+            "artifacts": [
+              "Lighthouse/Web Vitals снимок",
+              "Фикс performance в PR"
+            ]
+          },
+          "3": {
+            "check": [
+              "Планирует performance-проверки для рискованных UI (бандл, runtime)",
+              "Понимает базовые метрики ошибок клиента"
+            ],
+            "artifacts": [
+              "Чеклист NFT к фиче",
+              "Сравнение бандла до/после"
+            ]
+          }
+        },
+        "USEV": {
+          "2": {
+            "check": [
+              "Собирает feedback по прототипу/UI у коллег или пользователей по шаблону"
+            ],
+            "artifacts": [
+              "Заметки feedback"
+            ]
+          },
+          "3": {
+            "check": [
+              "Проводит лёгкую usability-проверку компонента; фиксирует findings"
+            ],
+            "artifacts": [
+              "Короткий evaluation report"
+            ]
+          }
+        },
+        "METL": {
+          "2": {
+            "check": [
+              "Работает в IDE/Git/CI по гайдам; использует Storybook/линтеры команды"
+            ],
+            "artifacts": [
+              "PR по шаблону"
+            ]
+          },
+          "3": {
+            "check": [
+              "Конфигурирует eslint/prettier/test runner в зоне фичи; обновляет docs"
+            ],
+            "artifacts": [
+              "PR с tool-config"
+            ]
+          },
+          "4": {
+            "check": [
+              "Рекомендует инструменты фронта; помогает с adoption"
+            ],
+            "artifacts": [
+              "Гайд по tool",
+              "Внедрение шаблона"
+            ]
+          },
+          "5": {
+            "check": [
+              "Выбирает и оценивает toolchain направления"
+            ],
+            "artifacts": [
+              "Decision record по toolstack"
+            ]
+          }
+        },
+        "RELM": {
+          "2": {
+            "check": [
+              "По чеклисту готовит релиз фронта (notes, проверка env)"
+            ],
+            "artifacts": [
+              "Release checklist"
+            ]
+          },
+          "3": {
+            "check": [
+              "Проводит типовой деплой/релиз фичи по процессу команды"
+            ],
+            "artifacts": [
+              "Статус раскатки / changelog"
+            ]
+          },
+          "4": {
+            "check": [
+              "Планирует релизы с feature flags, миграциями, откатом"
+            ],
+            "artifacts": [
+              "План релиза",
+              "Post-release review"
+            ]
+          }
+        }
+      },
+      "grades": [
+        {
+          "grade": "junior",
+          "label": "Junior Frontend Developer",
+          "summary": "Простые UI-задачи под менторством; следование дизайн-системе и базовой a11y.",
+          "requirements": [
+            {
+              "skill_id": "PROG",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SWDN",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "HCEV",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "ACIN",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "TEST",
+              "min_level": 1,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "METL",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SINT",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "grade": "middle",
+          "label": "Middle Frontend Developer",
+          "summary": "Фичи end-to-end в UI-слое; accessibility Apply; TEST Assist (как у Middle iOS).",
+          "requirements": [
+            {
+              "skill_id": "PROG",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SWDN",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "HCEV",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "ACIN",
+              "min_level": 3,
+              "priority": "required",
+              "notes": "Выше акцент на a11y, чем у Middle iOS"
+            },
+            {
+              "skill_id": "SINT",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "TEST",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "METL",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "NFTS",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": "Web vitals / performance smoke"
+            },
+            {
+              "skill_id": "USEV",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "RELM",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "grade": "senior",
+          "label": "Senior Frontend Developer",
+          "summary": "Сложный UI/UX design и архитектура фронтенда, сильная a11y, влияние на инструменты.",
+          "requirements": [
+            {
+              "skill_id": "PROG",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SWDN",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "HCEV",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "ACIN",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SINT",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "TEST",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "METL",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "NFTS",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "USEV",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "RELM",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "grade": "lead",
+          "label": "Lead Frontend Developer",
+          "summary": "Техлидерство frontend-направления: design/standards, methods & tools, integration.",
+          "requirements": [
+            {
+              "skill_id": "PROG",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SWDN",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "HCEV",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "ACIN",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SINT",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "METL",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "RELM",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "USEV",
+              "min_level": 3,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "TEST",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "NFTS",
+              "min_level": 3,
+              "priority": "optional",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qa-engineer",
+      "name": "QA Engineer",
+      "name_ru": "QA-инженер",
+      "description": "Обеспечивает качество продукта через functional/non-functional testing, quality assurance и оценку UX. Делит навыки SFIA с разработчиками, но с более высокими порогами по TEST/NFTS/QUAS.",
+      "status": "active",
+      "assessment": {
+        "PROG": {
+          "2": {
+            "check": [
+              "Пишет простые тестовые скрипты/хелперы на стеке автоматизации команды",
+              "Поддерживает читаемые page objects / фикстуры по образцу",
+              "Соблюдает секреты/тестовые данные — не коммитит credentials"
+            ],
+            "artifacts": [
+              "PR с простым автотестом",
+              "Хелпер/фикстура"
+            ]
+          },
+          "3": {
+            "check": [
+              "Самостоятельно автоматизирует повторяемые сценарии умеренной сложности",
+              "Стабилизирует flaky-тесты; понимает границы unit vs e2e",
+              "Ревьюит тестовый код коллег"
+            ],
+            "artifacts": [
+              "Набор автотестов на фичу",
+              "Фикс flaky с объяснением",
+              "Ревью test PR"
+            ]
+          }
+        },
+        "TEST": {
+          "2": {
+            "check": [
+              "Помогает проектировать кейсы; готовит данные; выполняет ручные и automated checks",
+              "Отчитывается о findings, issues и рисках"
+            ],
+            "artifacts": [
+              "Набор кейсов",
+              "Отчёт прогона",
+              "Баги с деталями"
+            ]
+          },
+          "3": {
+            "check": [
+              "Самостоятельно проектирует тест-дизайн фичи: сценарии, границы, регрессия зоны",
+              "Участвует в ревью требований/дизайна; ведёт exploratory testing",
+              "Автоматизирует повторяемое; даёт go/no-go на уровне фичи"
+            ],
+            "artifacts": [
+              "Тест-план фичи",
+              "Отчёт exploratory / регрессии",
+              "Уточнённые AC в тикете"
+            ]
+          },
+          "4": {
+            "check": [
+              "Выбирает стратегию functional testing с учётом риска и критичности",
+              "Развивает automation framework; отчитывается в т.ч. по работе других"
+            ],
+            "artifacts": [
+              "Стратегия тестирования стрима",
+              "Framework contribution",
+              "Сводный quality report"
+            ]
+          },
+          "5": {
+            "check": [
+              "Ведёт functional testing на всех этапах продукта",
+              "Задаёт методы/стандарты; улучшает покрытие и эффективность"
+            ],
+            "artifacts": [
+              "Политика/стандарт тестирования",
+              "Метрики покрытия/эффективности"
+            ]
+          }
+        },
+        "NFTS": {
+          "1": {
+            "check": [
+              "Выполняет готовые performance/security smoke-скрипты под контролем"
+            ],
+            "artifacts": [
+              "Лог прогона"
+            ]
+          },
+          "3": {
+            "check": [
+              "Проектирует NFT-кейсы (performance, стабильность и др. по контексту)",
+              "Готовит данные/окружения, близкие к prod; анализирует результаты"
+            ],
+            "artifacts": [
+              "NFT test plan",
+              "Отчёт load/perf с выводами"
+            ]
+          },
+          "4": {
+            "check": [
+              "Выбирает NFT-подходы для критичных систем; координирует с разработкой",
+              "Строит повторяемые автоматизированные NFT"
+            ],
+            "artifacts": [
+              "Стратегия NFT",
+              "Автоматизированный perf suite"
+            ]
+          },
+          "5": {
+            "check": [
+              "Лидирует NFT на продукте; вносит вклад в орг. стандарты"
+            ],
+            "artifacts": [
+              "Стандарт NFT",
+              "Улучшение надёжности тестовых стендов"
+            ]
+          }
+        },
+        "QUAS": {
+          "2": {
+            "check": [
+              "Собирает evidence по чеклистам качества; замечает очевидные non-compliance"
+            ],
+            "artifacts": [
+              "Заполненный QA checklist"
+            ]
+          },
+          "3": {
+            "check": [
+              "Проверяет, что нужные тестовые/quality-control активности реально были",
+              "Фиксирует non-compliances относительно стандартов команды"
+            ],
+            "artifacts": [
+              "Audit notes",
+              "Список non-compliance с ссылками"
+            ]
+          },
+          "4": {
+            "check": [
+              "Планирует assessment activity; готовит compliance reports",
+              "Предлагает corrective actions и консультирует по стандартам"
+            ],
+            "artifacts": [
+              "Formal review report",
+              "План corrective actions"
+            ]
+          },
+          "5": {
+            "check": [
+              "Ведёт assurance сложных областей; надзирает assurance других"
+            ],
+            "artifacts": [
+              "Cross-area quality assessment",
+              "Улучшение control mechanisms"
+            ]
+          }
+        },
+        "USEV": {
+          "2": {
+            "check": [
+              "Помогает готовить среду и собирать feedback по прототипам"
+            ],
+            "artifacts": [
+              "Сырые заметки feedback"
+            ]
+          },
+          "3": {
+            "check": [
+              "Проводит usability/a11y evaluation компонентов",
+              "Фиксирует findings и рекомендует действия"
+            ],
+            "artifacts": [
+              "Evaluation report",
+              "Список UX issues с приоритетом"
+            ]
+          },
+          "4": {
+            "check": [
+              "Выбирает методы оценки UX; валидирует usability/a11y/security требования",
+              "Приоритизирует проблемы для design/dev"
+            ],
+            "artifacts": [
+              "План evaluation",
+              "Сводка для продукт/дизайн"
+            ]
+          }
+        },
+        "ACIN": {
+          "2": {
+            "check": [
+              "Выполняет predefined a11y-тесты; документирует результаты"
+            ],
+            "artifacts": [
+              "A11y test log"
+            ]
+          },
+          "3": {
+            "check": [
+              "Проектирует и выполняет a11y-тесты фичи (WCAG/платформенные критерии)",
+              "Структурированно отчитывается и эскалирует сложное"
+            ],
+            "artifacts": [
+              "A11y test plan + report"
+            ]
+          },
+          "4": {
+            "check": [
+              "Влияет на дизайн с точки зрения accessibility; оценивает compliance-риски",
+              "Планирует a11y-тестирование релиза"
+            ],
+            "artifacts": [
+              "A11y risk assessment",
+              "Стандарт проверок для стрима"
+            ]
+          }
+        },
+        "METL": {
+          "2": {
+            "check": [
+              "Работает в TMS/баг-трекере/CI тестов по гайдам команды"
+            ],
+            "artifacts": [
+              "Оформленные кейсы/баги в системе"
+            ]
+          },
+          "3": {
+            "check": [
+              "Настраивает тестовые tools в известном контексте; обновляет инструкции"
+            ],
+            "artifacts": [
+              "Дока по tool",
+              "Правка CI тестов"
+            ]
+          },
+          "4": {
+            "check": [
+              "Рекомендует методы/инструменты тестирования; помогает с adoption"
+            ],
+            "artifacts": [
+              "Сравнение tools",
+              "Гайд внедрения"
+            ]
+          },
+          "5": {
+            "check": [
+              "Выбирает toolchain качества; оценивает value; влияет на политики"
+            ],
+            "artifacts": [
+              "Decision record",
+              "Политика инструментов QA"
+            ]
+          }
+        },
+        "SINT": {
+          "2": {
+            "check": [
+              "Поднимает тестовый стенд/сборку по инструкции; гоняет integration smoke"
+            ],
+            "artifacts": [
+              "Лог smoke на стенде"
+            ]
+          },
+          "3": {
+            "check": [
+              "Собирает тестовые контуры для фичи; диагностирует типовые env-проблемы"
+            ],
+            "artifacts": [
+              "Описание тест-окружения",
+              "Фикс конфигурации стенда"
+            ]
+          }
+        },
+        "RELM": {
+          "2": {
+            "check": [
+              "Участвует в release checklist: прогон smoke, фиксация блокеров"
+            ],
+            "artifacts": [
+              "Отмеченный release QA checklist"
+            ]
+          },
+          "3": {
+            "check": [
+              "Даёт quality sign-off на типовой релиз; эскалирует риски"
+            ],
+            "artifacts": [
+              "Go/no-go с обоснованием"
+            ]
+          },
+          "4": {
+            "check": [
+              "Планирует quality gates релиза; координирует проверки across teams"
+            ],
+            "artifacts": [
+              "Release test plan",
+              "Post-release quality review"
+            ]
+          }
+        },
+        "SWDN": {
+          "3": {
+            "check": [
+              "Участвует в дизайне тестовой стратегии модуля: что автоматизировать, какие риски",
+              "Предлагает testability-улучшения дизайну/разработке"
+            ],
+            "artifacts": [
+              "Заметки testability review",
+              "Схема уровней тестов"
+            ]
+          },
+          "4": {
+            "check": [
+              "Проектирует test architecture стрима (пирамида, данные, окружения)"
+            ],
+            "artifacts": [
+              "Test architecture doc"
+            ]
+          }
+        }
+      },
+      "grades": [
+        {
+          "grade": "junior",
+          "label": "Junior QA Engineer",
+          "summary": "Выполнение тестов и сбор evidence под контролем.",
+          "requirements": [
+            {
+              "skill_id": "TEST",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "NFTS",
+              "min_level": 1,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "QUAS",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "ACIN",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "METL",
+              "min_level": 2,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "USEV",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "PROG",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": "Базовые скрипты/automation helpers"
+            }
+          ]
+        },
+        {
+          "grade": "middle",
+          "label": "Middle QA Engineer",
+          "summary": "Самостоятельный тест-дизайн фич. TEST = 3 (выше, чем Middle iOS/Frontend = 2).",
+          "requirements": [
+            {
+              "skill_id": "TEST",
+              "min_level": 3,
+              "priority": "required",
+              "notes": "У Middle iOS/Frontend порог TEST = 2"
+            },
+            {
+              "skill_id": "NFTS",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "QUAS",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "USEV",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "ACIN",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "METL",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "PROG",
+              "min_level": 2,
+              "priority": "required",
+              "notes": "Automation / тестовые утилиты"
+            },
+            {
+              "skill_id": "SINT",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "RELM",
+              "min_level": 2,
+              "priority": "optional",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "grade": "senior",
+          "label": "Senior QA Engineer",
+          "summary": "Стратегия тестирования стрима, frameworks, quality assurance Enable.",
+          "requirements": [
+            {
+              "skill_id": "TEST",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "NFTS",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "QUAS",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "USEV",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "ACIN",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "METL",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "PROG",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "SINT",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "RELM",
+              "min_level": 3,
+              "priority": "required",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "grade": "lead",
+          "label": "Lead QA Engineer",
+          "summary": "Орг./продуктовое лидерство качества: политики тестирования и assurance.",
+          "requirements": [
+            {
+              "skill_id": "TEST",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "NFTS",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "QUAS",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "METL",
+              "min_level": 5,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "USEV",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "ACIN",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "RELM",
+              "min_level": 4,
+              "priority": "required",
+              "notes": ""
+            },
+            {
+              "skill_id": "PROG",
+              "min_level": 3,
+              "priority": "optional",
+              "notes": ""
+            },
+            {
+              "skill_id": "SINT",
+              "min_level": 3,
+              "priority": "optional",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assessment_guide": {
+    "title": "Как проводить оценку",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "Зачем матрица",
+        "body": "Матрица фиксирует требования роли на каждом грейде как набор навыков SFIA с минимальными уровнями. Один навык (например, TEST) может требовать разные уровни в разных ролях: Middle iOS/Frontend — 2, Middle QA — 3."
+      },
+      {
+        "id": "steps",
+        "title": "Шаги ассессмента",
+        "body": "1) Кандидат выбирает целевую роль и грейд.\n2) В требованиях открывает навык и смотрит SFIA-уровень + рекомендации по оценке для этой роли.\n3) Проходит самооценку и прикладывает артефакты из рекомендаций.\n4) Асессор подтверждает целевой уровень (прирост). Грейд подтверждён, если все required ≥ min_level."
+      },
+      {
+        "id": "artifacts",
+        "title": "Зачем нужны артефакты",
+        "body": "Артефакты — доказательства реального уровня. В рекомендациях по роли для каждого уровня навыка указаны примеры (PR, тест-планы, ADR, a11y-отчёты и т.д.). Без артефактов уровень обычно не подтверждается; на встрече можно дать практическое задание."
+      },
+      {
+        "id": "role-hints",
+        "title": "Рекомендации по роли",
+        "body": "Навык SFIA общий (например, PROG). Рядом с уровнями в карточке роли — рекомендации: что именно проверять для iOS, Frontend или QA. Если рекомендаций нет — ориентируйтесь на универсальный текст SFIA: для этого навыка ролевой специфики нет."
+      },
+      {
+        "id": "rules",
+        "title": "Правила",
+        "body": "• Оценивается целевой уровень навыка (прирост).\n• Optional не блокирует грейд.\n• Подтверждённый уровень навыка переносится между ролями; меняется порог и ролевые рекомендации.\n• Редкие активности не обязательны при наличии эквивалента.\n• Только навыки SFIA 9."
+      },
+      {
+        "id": "sfia",
+        "title": "Про SFIA",
+        "body": "SFIA 9 задаёт общий смысл навыка и уровней. Контекст направления (iOS / web / QA) — в порогах грейда и в рекомендациях по оценке, привязанных к роли."
+      }
+    ]
+  }
+}

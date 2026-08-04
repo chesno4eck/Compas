@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Compas — матрица компетенций</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+    <header class="top">
+      <div class="brand">
+        <span class="brand-mark">C</span>
+        <div>
+          <p class="brand-kicker">Compas · SFIA 9</p>
+          <h1 class="brand-title">Compas</h1>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Разделы">
+        <button type="button" data-view="roles" class="nav-btn is-active">Роли</button>
+        <button type="button" data-view="skills" class="nav-btn">Навыки</button>
+        <button type="button" data-view="guide" class="nav-btn">Оценка</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="view-roles" class="view is-visible">
+        <div class="hero-block">
+          <p class="lede">
+            Три роли — iOS, Frontend и QA. Выберите роль и грейд, откройте навык:
+            рядом с уровнями — рекомендации, что проверять именно для этого направления.
+          </p>
+          <div id="role-tabs" class="role-tabs" role="tablist"></div>
+        </div>
+        <div id="role-panel" class="role-panel"></div>
+      </section>
+
+      <section id="view-skills" class="view">
+        <div class="hero-block">
+          <h2 class="section-title">Каталог навыков</h2>
+          <p class="lede">Только навыки из SFIA 9. Кликните карточку, чтобы увидеть уровни.</p>
+        </div>
+        <div id="skills-grid" class="skills-grid"></div>
+        <article id="skill-detail" class="skill-detail" hidden></article>
+      </section>
+
+      <section id="view-guide" class="view">
+        <div class="hero-block">
+          <h2 class="section-title">Как производить оценку</h2>
+          <p class="lede">Краткая инструкция для кандидата и асессора: шаги, артефакты, правила.</p>
+        </div>
+        <div id="guide-content" class="guide-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Источник данных: <code>data/matrix.json</code> · навыки по
+        <a href="https://sfia-online.org/en/sfia-9" target="_blank" rel="noreferrer">SFIA 9</a>
+      </p>
+    </footer>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
