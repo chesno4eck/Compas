@@ -22,15 +22,15 @@ requirements:
   - skill_id: HCEV
     min_level: 3
     priority: required
-  - skill_id: ACIN
-    min_level: 3
-    priority: required
   - skill_id: NFTS
     min_level: 2
     priority: required
   - skill_id: RELM
     min_level: 3
     priority: required
+  - skill_id: ACIN
+    min_level: 3
+    priority: optional
   - skill_id: USEV
     min_level: 2
     priority: optional
@@ -50,9 +50,9 @@ requirements:
 | TEST | [skills/test.md](../../../skills/test.md) | **2** | required | — |
 | METL | [skills/metl.md](../../../skills/metl.md) | **4** | required | — |
 | HCEV | [skills/hcev.md](../../../skills/hcev.md) | **3** | required | — |
-| ACIN | [skills/acin.md](../../../skills/acin.md) | **3** | required | — |
 | NFTS | [skills/nfts.md](../../../skills/nfts.md) | **2** | required | — |
 | RELM | [skills/relm.md](../../../skills/relm.md) | **3** | required | — |
+| ACIN | [skills/acin.md](../../../skills/acin.md) | **3** | optional | — |
 | USEV | [skills/usev.md](../../../skills/usev.md) | **2** | optional | — |
 
 ## Критерий

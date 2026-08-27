@@ -25,11 +25,11 @@ requirements:
     priority: required
   - skill_id: ACIN
     min_level: 2
-    priority: required
+    priority: optional
   - skill_id: NFTS
     min_level: 2
     priority: optional
-    notes: "Базовые performance/stability проверки"
+    notes: "Базовые проверки производительности и стабильности"
   - skill_id: RELM
     min_level: 2
     priority: optional
@@ -37,7 +37,7 @@ requirements:
 
 # Middle iOS Developer
 
-Самостоятельные фичи умеренной сложности; самопроверка на уровне Assist (ниже, чем у Middle QA).
+Самостоятельные фичи умеренной сложности; тестирование и оценка качества фичи.
 
 ## Требования к навыкам
 
@@ -49,8 +49,8 @@ requirements:
 | TEST | [skills/test.md](../../../skills/test.md) | **2** | required | Самопроверка фичи; у Middle QA порог TEST = 3 |
 | METL | [skills/metl.md](../../../skills/metl.md) | **3** | required | — |
 | HCEV | [skills/hcev.md](../../../skills/hcev.md) | **3** | required | — |
-| ACIN | [skills/acin.md](../../../skills/acin.md) | **2** | required | — |
-| NFTS | [skills/nfts.md](../../../skills/nfts.md) | **2** | optional | Базовые performance/stability проверки |
+| ACIN | [skills/acin.md](../../../skills/acin.md) | **2** | optional | — |
+| NFTS | [skills/nfts.md](../../../skills/nfts.md) | **2** | optional | Базовые проверки производительности и стабильности |
 | RELM | [skills/relm.md](../../../skills/relm.md) | **2** | optional | — |
 
 ## Критерий

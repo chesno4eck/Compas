@@ -2,7 +2,7 @@
 id: FEAS
 name: "Feasibility assessment"
 name_ru: "Оценка осуществимости"
-summary: "Генерация и оценка опций изменений: feasibility, business case, cost/benefit, риски."
+summary: "Генерация и оценка вариантов изменений: осуществимость, бизнес-кейс, затраты и выгоды, риски."
 category: business
 sfia_base: FEAS
 sfia_version: "9"
@@ -15,29 +15,29 @@ status: active
 
 > SFIA 9: [Feasibility assessment](https://sfia-online.org/en/sfia-9/skills/feasibility-assessment)
 
-Генерация и оценка опций изменений: feasibility, business case, cost/benefit, риски.
+Генерация и оценка вариантов изменений: осуществимость, бизнес-кейс, затраты и выгоды, риски.
 
 ## Уровни
 
 ### Уровень 2 — Assist
 
-Помогает с feasibility tasks. Собирает информацию для assessments. Поддерживает identification и документирование опций.
+Помогает с задачами оценки осуществимости. Собирает информацию для оценок. Поддерживает выявление и документирование вариантов.
 
 ### Уровень 3 — Apply
 
-Поддерживает identification опций и feasibility. Применяет стандартные техники. Поддерживает cost/benefit и business cases.
+Поддерживает выявление вариантов и оценку осуществимости. Применяет стандартные техники. Поддерживает оценку затрат и выгод и бизнес-кейсы.
 
 ### Уровень 4 — Enable
 
-Выбирает подходы feasibility. Identifies options, short-listing, assessment. Взаимодействует со стейкхолдерами. Готовит business cases с cost/benefit, impact, risk.
+Выбирает подходы к оценке осуществимости. Выявляет варианты, сужает список, проводит оценку. Взаимодействует со стейкхолдерами. Готовит бизнес-кейсы с затратами и выгодами, влиянием и рисками.
 
 ### Уровень 5 — Ensure, advise
 
-Управляет investigative work для feasibility. Advises по подходам. Готовит business cases для опций, включая cost/benefit, impact, risk analysis.
+Управляет исследовательской работой по осуществимости. Консультирует по подходам. Готовит бизнес-кейсы для вариантов, включая анализ затрат и выгод, влияния и рисков.
 
 ### Уровень 6 — Initiate, influence
 
-Устанавливает org framework для feasibility и business cases. Ведёт assessments для initiatives с significant org impact. Presentations senior stakeholders.
+Устанавливает орг. рамку для оценки осуществимости и бизнес-кейсов. Ведёт оценки для инициатив со значительным влиянием на организацию. Презентует руководству.
 
 ## Источник
 

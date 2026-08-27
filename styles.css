@@ -198,6 +198,112 @@ body {
   gap: 22px;
 }
 
+.matrix-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.matrix-card-head {
+  padding: 22px 24px 12px;
+}
+
+.matrix-card-head h3 {
+  margin: 0 0 6px;
+  font-family: var(--display);
+  font-size: 1.6rem;
+}
+
+.matrix-card-head p {
+  margin: 0;
+}
+
+.matrix-scroll {
+  overflow-x: auto;
+}
+
+.grade-matrix {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 560px;
+}
+
+.grade-matrix th,
+.grade-matrix td {
+  padding: 12px 14px;
+  text-align: center;
+  border-top: 1px solid var(--line);
+  vertical-align: middle;
+}
+
+.grade-matrix thead th {
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 700;
+  background: rgba(231, 239, 232, 0.55);
+}
+
+.grade-matrix th:first-child,
+.grade-matrix td:first-child {
+  text-align: left;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: #fffcf5;
+  min-width: 220px;
+}
+
+.grade-matrix thead th:first-child {
+  background: #eef4ef;
+  z-index: 2;
+}
+
+.grade-matrix tbody th {
+  font-weight: 600;
+}
+
+.matrix-skill-name {
+  display: block;
+  margin-top: 2px;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.grade-matrix .matrix-level {
+  display: block;
+  font-family: var(--mono);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.grade-matrix .priority {
+  display: block;
+  margin-top: 2px;
+}
+
+.grade-matrix td.is-required {
+  background: rgba(196, 92, 38, 0.08);
+}
+
+.grade-matrix td.is-optional {
+  background: rgba(20, 32, 28, 0.03);
+}
+
+.grade-matrix td.matrix-empty {
+  color: var(--muted);
+}
+
+.matrix-dash {
+  font-size: 1.1rem;
+}
+
 .role-head {
   padding: 28px;
   border-radius: var(--radius);
@@ -712,5 +818,17 @@ table.req-table {
 
   .brand-title {
     font-size: 1.7rem;
+  }
+
+  .nav {
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 18px;
+  }
+
+  .nav-btn {
+    flex: 1;
+    padding: 10px 8px;
+    text-align: center;
   }
 }

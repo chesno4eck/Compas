@@ -2,7 +2,7 @@
 id: DEMG
 name: "Delivery management"
 name_ru: "Управление поставкой"
-summary: "Управление delivery-командой: планирование, приоритизация, риски, progress reporting, continuous improvement."
+summary: "Управление командой поставки: планирование, приоритизация, риски, отчётность о прогрессе, непрерывное улучшение."
 category: delivery
 sfia_base: DEMG
 sfia_version: "9"
@@ -15,25 +15,25 @@ status: active
 
 > SFIA 9: [Delivery management](https://sfia-online.org/en/sfia-9/skills/delivery-management)
 
-Управление delivery-командой: планирование, приоритизация, риски, progress reporting, continuous improvement.
+Управление командой поставки: планирование, приоритизация, риски, отчётность о прогрессе, непрерывное улучшение.
 
 ## Уровни
 
 ### Уровень 3 — Apply
 
-Управляет routine delivery небольших продуктов/частей сервиса. Следует методологиям и quality processes. Координирует planning, tracks progress/risks/issues. Поддерживает collaborative environment.
+Управляет регулярной поставкой небольших продуктов или частей сервиса. Следует методологиям и процессам качества. Координирует планирование, отслеживает прогресс, риски и проблемы. Поддерживает среду сотрудничества.
 
 ### Уровень 4 — Enable
 
-Управляет delivery для small-to-medium инициатив. Применяет delivery methodologies, ведёт teams. Prioritisation, iteration planning, incremental value. Communicates progress/risks/issues.
+Управляет поставкой небольших и средних инициатив. Применяет методологии поставки, ведёт команды. Приоритизация, планирование итераций, прирост ценности. Сообщает о прогрессе, рисках и проблемах.
 
 ### Уровень 5 — Ensure, advise
 
-Лидирует delivery крупных/complex инициатив. Адаптирует подходы. Leadership нескольким teams. Proactive risk/dependency/change management. Drives continuous improvement.
+Лидирует поставку крупных и сложных инициатив. Адаптирует подходы. Руководит несколькими командами. Проактивно управляет рисками, зависимостями и изменениями. Движет непрерывное улучшение.
 
 ### Уровень 6 — Initiate, influence
 
-Определяет delivery strategy для multiple products/services. Aligns с org goals. Monitors performance, mitigates systemic risks. Sets direction и standards delivery management.
+Определяет стратегию поставки для нескольких продуктов и сервисов. Выравнивает с целями организации. Следит за результатами, снижает системные риски. Задаёт направление и стандарты управления поставкой.
 
 ## Источник
 

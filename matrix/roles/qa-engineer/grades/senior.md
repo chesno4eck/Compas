@@ -35,7 +35,7 @@ requirements:
 
 # Senior QA Engineer
 
-Стратегия тестирования стрима, frameworks, quality assurance Enable.
+Стратегия тестирования стрима, фреймворки, обеспечение качества.
 
 ## Требования к навыкам
 

@@ -2,14 +2,14 @@
 id: frontend-developer
 name: Frontend Developer
 name_ru: Frontend-разработчик
-description: "Разрабатывает пользовательские веб/клиентские интерфейсы. Тот же набор SFIA software engineering skills, с акцентом на UX design и accessibility."
+description: "Разрабатывает и сопровождает веб-приложения на стеке команды (TypeScript, React, Next.js), применяя навыки программной инженерии из SFIA в веб-контексте."
 grades: [junior, middle, senior, lead]
 status: active
 ---
 
 # Роль: Frontend-разработчик
 
-Разрабатывает пользовательские веб/клиентские интерфейсы. Тот же набор SFIA software engineering skills, с акцентом на UX design и accessibility.
+Разрабатывает и сопровождает веб-приложения на стеке команды (TypeScript, React, Next.js), применяя навыки программной инженерии из SFIA в веб-контексте.
 
 ## Грейды
 

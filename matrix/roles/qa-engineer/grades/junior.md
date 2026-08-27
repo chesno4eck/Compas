@@ -25,12 +25,12 @@ requirements:
   - skill_id: PROG
     min_level: 2
     priority: optional
-    notes: "Базовые скрипты/automation helpers"
+    notes: "Базовые скрипты и вспомогательные средства автоматизации"
 ---
 
 # Junior QA Engineer
 
-Выполнение тестов и сбор evidence под контролем.
+Выполнение тестов и сбор доказательств под контролем.
 
 ## Требования к навыкам
 
@@ -42,7 +42,7 @@ requirements:
 | ACIN | [skills/acin.md](../../../skills/acin.md) | **2** | required | — |
 | METL | [skills/metl.md](../../../skills/metl.md) | **2** | required | — |
 | USEV | [skills/usev.md](../../../skills/usev.md) | **2** | optional | — |
-| PROG | [skills/prog.md](../../../skills/prog.md) | **2** | optional | Базовые скрипты/automation helpers |
+| PROG | [skills/prog.md](../../../skills/prog.md) | **2** | optional | Базовые скрипты и вспомогательные средства автоматизации |
 
 ## Критерий
 

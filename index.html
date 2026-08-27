@@ -24,6 +24,7 @@
       </div>
       <nav class="nav" aria-label="Разделы">
         <button type="button" data-view="roles" class="nav-btn is-active">Роли</button>
+        <button type="button" data-view="matrix" class="nav-btn">Матрица</button>
         <button type="button" data-view="skills" class="nav-btn">Навыки</button>
         <button type="button" data-view="guide" class="nav-btn">Оценка</button>
       </nav>
@@ -39,6 +40,17 @@
           <div id="role-tabs" class="role-tabs" role="tablist"></div>
         </div>
         <div id="role-panel" class="role-panel"></div>
+      </section>
+
+      <section id="view-matrix" class="view">
+        <div class="hero-block">
+          <h2 class="section-title">Матрица роли</h2>
+          <p class="lede">
+            Пороги навыков по грейдам. Сводка, чтобы быстро увидеть, что обязательно, а что опционально.
+          </p>
+          <div id="matrix-role-tabs" class="role-tabs" role="tablist"></div>
+        </div>
+        <div id="matrix-panel"></div>
       </section>
 
       <section id="view-skills" class="view">

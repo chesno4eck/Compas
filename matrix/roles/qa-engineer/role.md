@@ -2,14 +2,14 @@
 id: qa-engineer
 name: QA Engineer
 name_ru: QA-инженер
-description: "Обеспечивает качество продукта через functional/non-functional testing, quality assurance и оценку UX. Делит навыки SFIA с разработчиками, но с более высокими порогами по TEST/NFTS/QUAS."
+description: "Обеспечивает качество продукта через функциональное и нефункциональное тестирование, обеспечение качества и оценку UX. Делит навыки SFIA с разработчиками, но с более высокими порогами по TEST, NFTS и QUAS."
 grades: [junior, middle, senior, lead]
 status: active
 ---
 
 # Роль: QA-инженер
 
-Обеспечивает качество продукта через functional/non-functional testing, quality assurance и оценку UX. Делит навыки SFIA с разработчиками, но с более высокими порогами по TEST/NFTS/QUAS.
+Обеспечивает качество продукта через функциональное и нефункциональное тестирование, обеспечение качества и оценку UX. Делит навыки SFIA с разработчиками, но с более высокими порогами по TEST, NFTS и QUAS.
 
 ## Грейды
 

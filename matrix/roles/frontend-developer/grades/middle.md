@@ -10,29 +10,26 @@ requirements:
   - skill_id: SWDN
     min_level: 3
     priority: required
-  - skill_id: HCEV
-    min_level: 3
-    priority: required
-  - skill_id: ACIN
-    min_level: 3
-    priority: required
-    notes: "Выше акцент на a11y, чем у Middle iOS"
   - skill_id: SINT
     min_level: 3
     priority: required
   - skill_id: TEST
     min_level: 2
     priority: required
+    notes: "Самопроверка фичи; у Middle QA порог TEST = 3"
   - skill_id: METL
     min_level: 3
     priority: required
+  - skill_id: HCEV
+    min_level: 3
+    priority: required
+  - skill_id: ACIN
+    min_level: 2
+    priority: optional
   - skill_id: NFTS
     min_level: 2
     priority: optional
-    notes: "Web vitals / performance smoke"
-  - skill_id: USEV
-    min_level: 2
-    priority: optional
+    notes: "Базовые проверки производительности и стабильности"
   - skill_id: RELM
     min_level: 2
     priority: optional
@@ -40,7 +37,7 @@ requirements:
 
 # Middle Frontend Developer
 
-Фичи end-to-end в UI-слое; accessibility Apply; TEST Assist (как у Middle iOS).
+Самостоятельные фичи умеренной сложности; тестирование и оценка качества фичи.
 
 ## Требования к навыкам
 
@@ -48,13 +45,12 @@ requirements:
 | --- | --- | --- | --- | --- |
 | PROG | [skills/prog.md](../../../skills/prog.md) | **3** | required | — |
 | SWDN | [skills/swdn.md](../../../skills/swdn.md) | **3** | required | — |
-| HCEV | [skills/hcev.md](../../../skills/hcev.md) | **3** | required | — |
-| ACIN | [skills/acin.md](../../../skills/acin.md) | **3** | required | Выше акцент на a11y, чем у Middle iOS |
 | SINT | [skills/sint.md](../../../skills/sint.md) | **3** | required | — |
-| TEST | [skills/test.md](../../../skills/test.md) | **2** | required | — |
+| TEST | [skills/test.md](../../../skills/test.md) | **2** | required | Самопроверка фичи; у Middle QA порог TEST = 3 |
 | METL | [skills/metl.md](../../../skills/metl.md) | **3** | required | — |
-| NFTS | [skills/nfts.md](../../../skills/nfts.md) | **2** | optional | Web vitals / performance smoke |
-| USEV | [skills/usev.md](../../../skills/usev.md) | **2** | optional | — |
+| HCEV | [skills/hcev.md](../../../skills/hcev.md) | **3** | required | — |
+| ACIN | [skills/acin.md](../../../skills/acin.md) | **2** | optional | — |
+| NFTS | [skills/nfts.md](../../../skills/nfts.md) | **2** | optional | Базовые проверки производительности и стабильности |
 | RELM | [skills/relm.md](../../../skills/relm.md) | **2** | optional | — |
 
 ## Критерий

@@ -2,14 +2,14 @@
 id: ios-developer
 name: iOS Developer
 name_ru: iOS-разработчик
-description: "Разрабатывает и сопровождает нативные приложения на платформе Apple (iOS/iPadOS), применяя навыки software engineering из SFIA в мобильном контексте."
+description: "Разрабатывает и сопровождает нативные приложения на платформе Apple (iOS/iPadOS), применяя навыки программной инженерии из SFIA в мобильном контексте."
 grades: [junior, middle, senior, lead]
 status: active
 ---
 
 # Роль: iOS-разработчик
 
-Разрабатывает и сопровождает нативные приложения на платформе Apple (iOS/iPadOS), применяя навыки software engineering из SFIA в мобильном контексте.
+Разрабатывает и сопровождает нативные приложения на платформе Apple (iOS/iPadOS), применяя навыки программной инженерии из SFIA в мобильном контексте.
 
 ## Грейды
 

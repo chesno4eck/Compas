@@ -60,8 +60,8 @@ erDiagram
 
 ## Роли
 
-- `ios-developer` — акцент PROG / SWDN / SINT
-- `frontend-developer` — те же engineering skills + выше пороги HCEV / ACIN
+- `ios-developer` — эталон engineering-роли: акцент PROG / SWDN / SINT
+- `frontend-developer` — те же пороги, что у iOS; платформенный контекст — в рекомендациях по оценке
 - `qa-engineer` — выше пороги TEST / NFTS / QUAS / USEV; PROG на уровне automation
 
 ---

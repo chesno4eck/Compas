@@ -16,6 +16,7 @@ async function load() {
   state.grade = state.data.roles[0]?.grades[0]?.grade;
   bindNav();
   renderRoles();
+  renderMatrix();
   renderSkills();
   renderGuide();
 }
@@ -47,30 +48,35 @@ function hasRoleHints(roleId, skillId) {
   return Boolean(roleById(roleId)?.assessment?.[skillId]);
 }
 
-function renderRoles() {
-  const tabs = $("#role-tabs");
-  tabs.innerHTML = "";
+function paintRoleTabs(container) {
+  if (!container) return;
+  container.innerHTML = "";
   state.data.roles.forEach((role) => {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = `role-tab${role.id === state.roleId ? " is-active" : ""}`;
     btn.textContent = role.name_ru || role.name;
+    btn.setAttribute("aria-selected", role.id === state.roleId ? "true" : "false");
     btn.addEventListener("click", () => {
+      if (role.id === state.roleId) return;
       state.roleId = role.id;
       state.grade = role.grades[0]?.grade;
       state.openReqSkill = null;
       renderRoles();
+      renderMatrix();
     });
-    tabs.appendChild(btn);
+    container.appendChild(btn);
   });
+}
+
+function renderRoles() {
+  paintRoleTabs($("#role-tabs"));
 
   const role = roleById(state.roleId);
   if (!role) return;
 
   const grade =
     role.grades.find((g) => g.grade === state.grade) || role.grades[0];
-
-  const compareHtml = buildCompareNote(grade);
 
   $("#role-panel").innerHTML = `
     <article class="role-head">
@@ -89,7 +95,6 @@ function renderRoles() {
       <p class="muted" style="margin-top:14px">${grade.summary}</p>
       <p class="hint-callout">Откройте навык ниже: рядом с уровнями — рекомендации, <em>что проверять именно для ${role.name_ru}</em>.</p>
     </article>
-    ${compareHtml}
     <div class="req-cards" id="req-cards">
       ${grade.requirements
         .map((r) => renderRequirementCard(role, r))
@@ -196,26 +201,65 @@ function renderLevelBlock(role, skill, levelDetail, targetLevel) {
   `;
 }
 
-function buildCompareNote(grade) {
-  if (grade.grade !== "middle") return "";
-  const testReq = grade.requirements.find((r) => r.skill_id === "TEST");
-  if (!testReq) return "";
+function roleSkillIds(role) {
+  const seen = new Set();
+  for (const grade of role.grades) {
+    for (const req of grade.requirements) seen.add(req.skill_id);
+  }
+  return state.data.skills.map((s) => s.id).filter((id) => seen.has(id));
+}
 
-  const rows = state.data.roles.map((r) => {
-    const mid = r.grades.find((g) => g.grade === "middle");
-    const t = mid?.requirements.find((x) => x.skill_id === "TEST");
-    return { name: r.name_ru, level: t?.min_level ?? "—" };
-  });
+function renderMatrix() {
+  paintRoleTabs($("#matrix-role-tabs"));
+  const role = roleById(state.roleId);
+  const panel = $("#matrix-panel");
+  if (!role || !panel) return;
 
-  return `
-    <div class="compare">
-      <div class="compare-card">
-        <h3>Пример: навык TEST на Middle</h3>
-        <p>${rows.map((r) => `${r.name}: <strong>L${r.level}</strong>`).join(" · ")}</p>
+  const skillIds = roleSkillIds(role);
+  const headerCells = role.grades
+    .map((g) => `<th scope="col">${escapeHtml(capitalize(g.grade))}</th>`)
+    .join("");
+  const rows = skillIds
+    .map((skillId) => {
+      const skill = skillById(skillId);
+      const cells = role.grades
+        .map((g) => {
+          const req = g.requirements.find((r) => r.skill_id === skillId);
+          if (!req) {
+            return `<td class="matrix-empty"><span class="matrix-dash" aria-label="нет требования">—</span></td>`;
+          }
+          return `<td class="is-${req.priority}">
+            <span class="matrix-level">L${req.min_level}</span>
+            <span class="priority ${req.priority}">${req.priority}</span>
+          </td>`;
+        })
+        .join("");
+      return `<tr>
+        <th scope="row">
+          <span class="skill-code">${escapeHtml(skillId)}</span>
+          <span class="matrix-skill-name">${escapeHtml(skill?.name_ru || skillId)}</span>
+        </th>
+        ${cells}
+      </tr>`;
+    })
+    .join("");
+
+  panel.innerHTML = `
+    <div class="matrix-card">
+      <div class="matrix-card-head">
+        <h3>${escapeHtml(role.name_ru)}</h3>
+        <p class="muted">Уровень SFIA и приоритет для каждого грейда. Пустая ячейка — навык на этом грейде не требуется.</p>
       </div>
-      <div class="compare-card">
-        <h3>Как читать карточку</h3>
-        <p>Откройте навык → для каждого уровня: текст SFIA + рекомендации, что проверять в этой роли.</p>
+      <div class="matrix-scroll">
+        <table class="grade-matrix">
+          <thead>
+            <tr>
+              <th scope="col">Навык</th>
+              ${headerCells}
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
       </div>
     </div>
   `;

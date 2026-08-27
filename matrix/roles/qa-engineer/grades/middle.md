@@ -26,7 +26,7 @@ requirements:
   - skill_id: PROG
     min_level: 2
     priority: required
-    notes: "Automation / тестовые утилиты"
+    notes: "Автоматизация и тестовые утилиты"
   - skill_id: SINT
     min_level: 2
     priority: optional
@@ -49,7 +49,7 @@ requirements:
 | USEV | [skills/usev.md](../../../skills/usev.md) | **3** | required | — |
 | ACIN | [skills/acin.md](../../../skills/acin.md) | **3** | required | — |
 | METL | [skills/metl.md](../../../skills/metl.md) | **3** | required | — |
-| PROG | [skills/prog.md](../../../skills/prog.md) | **2** | required | Automation / тестовые утилиты |
+| PROG | [skills/prog.md](../../../skills/prog.md) | **2** | required | Автоматизация и тестовые утилиты |
 | SINT | [skills/sint.md](../../../skills/sint.md) | **2** | optional | — |
 | RELM | [skills/relm.md](../../../skills/relm.md) | **2** | optional | — |
 

@@ -38,7 +38,7 @@ requirements:
 
 # Lead Product Manager
 
-Лидерство product-направления: lifecycle, portfolio thinking, стандарты discovery/delivery.
+Лидерство продуктового направления: жизненный цикл, портфельное мышление, стандарты исследования и поставки.
 
 ## Требования к навыкам
 
