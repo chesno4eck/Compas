@@ -48,13 +48,15 @@ erDiagram
 | METL | Methods and tools |
 | QUAS | Quality assurance |
 | RELM | Release management |
+| DBDS | Database design |
+| DTAN | Data modelling and design |
 
-Платформенный контекст (iOS / web / QA) выражается:
+Платформенный контекст (iOS / web / backend / QA) выражается:
 
 1. **набором и порогами** навыков в грейде роли;
 2. **рекомендациями по оценке** (`roles.*.assessment` / `scripts/role-assessment.mjs`) — что проверять на уровне навыка именно для этой роли.
 
-Навык остаётся общим (например, PROG). У iOS и Frontend рекомендации к PROG разные; у части навыков (где специфики нет) блок рекомендаций отсутствует — действует текст SFIA.
+Навык остаётся общим (например, PROG). У iOS, Frontend и Backend рекомендации к PROG разные; у части навыков (где специфики нет) блок рекомендаций отсутствует — действует текст SFIA.
 
 ---
 
@@ -62,6 +64,7 @@ erDiagram
 
 - `ios-developer` — эталон engineering-роли: акцент PROG / SWDN / SINT
 - `frontend-developer` — те же пороги, что у iOS; платформенный контекст — в рекомендациях по оценке
+- `backend-developer` — те же пороги PROG / SWDN / SINT / TEST / METL, что у iOS; вместо HCEV / USEV / ACIN — DBDS и DTAN
 - `qa-engineer` — выше пороги TEST / NFTS / QUAS / USEV; PROG на уровне automation
 
 ---

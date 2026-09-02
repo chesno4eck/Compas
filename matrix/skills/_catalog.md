@@ -15,6 +15,8 @@
 | METL | Методы и инструменты | platform | 2–6 | [metl.md](metl.md) |
 | QUAS | Обеспечение качества | quality | 2–6 | [quas.md](quas.md) |
 | RELM | Управление релизами | delivery | 2–6 | [relm.md](relm.md) |
+| DBDS | Проектирование баз данных | data | 2–5 | [dbds.md](dbds.md) |
+| DTAN | Моделирование и проектирование данных | data | 2–5 | [dtan.md](dtan.md) |
 | PROD | Управление продуктом | product | 2–6 | [prod.md](prod.md) |
 | REQM | Определение и управление требованиями | product | 2–6 | [reqm.md](reqm.md) |
 | RLMT | Управление отношениями со стейкхолдерами | stakeholder | 4–7 | [rlmt.md](rlmt.md) |
