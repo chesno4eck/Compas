@@ -8,7 +8,7 @@
 
 1. **Только навыки SFIA.** Коды и смысл уровней берутся из SFIA 9. Новые «локальные» навыки не вводятся, если навык уже есть в SFIA.
 2. **Skill ≠ Role.** Роль не содержит текста уровней — только `skill_id + min_level + priority`.
-3. **Один навык — много ролей.** Пример: `TEST` на Middle iOS/Frontend = L2, на Middle QA = L3.
+3. **Один навык — много ролей.** Пример: `TEST` на Middle iOS/Android/Frontend = L2, на Middle QA = L3.
 4. **Грейд — профиль требований**, не отдельный навык.
 5. **Контент навыка отделён от процесса оценки.**
 
@@ -51,18 +51,19 @@ erDiagram
 | DBDS | Database design |
 | DTAN | Data modelling and design |
 
-Платформенный контекст (iOS / web / backend / QA) выражается:
+Платформенный контекст (iOS / Android / web / backend / QA) выражается:
 
 1. **набором и порогами** навыков в грейде роли;
 2. **рекомендациями по оценке** (`roles.*.assessment` / `scripts/role-assessment.mjs`) — что проверять на уровне навыка именно для этой роли.
 
-Навык остаётся общим (например, PROG). У iOS, Frontend и Backend рекомендации к PROG разные; у части навыков (где специфики нет) блок рекомендаций отсутствует — действует текст SFIA.
+Навык остаётся общим (например, PROG). У iOS, Android, Frontend и Backend рекомендации к PROG разные; у части навыков (где специфики нет) блок рекомендаций отсутствует — действует текст SFIA.
 
 ---
 
 ## Роли
 
 - `ios-developer` — эталон engineering-роли: акцент PROG / SWDN / SINT
+- `android-developer` — те же пороги, что у iOS; платформенный контекст — в рекомендациях по оценке
 - `frontend-developer` — те же пороги, что у iOS; платформенный контекст — в рекомендациях по оценке
 - `backend-developer` — те же пороги PROG / SWDN / SINT / TEST / METL, что у iOS; вместо HCEV / USEV / ACIN — DBDS и DTAN
 - `qa-engineer` — выше пороги TEST / NFTS / QUAS / USEV; PROG на уровне automation

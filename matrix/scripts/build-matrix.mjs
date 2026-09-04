@@ -488,6 +488,76 @@ const roles = [
     },
   },
   {
+    id: "android-developer",
+    name: "Android Developer",
+    name_ru: "Android-разработчик",
+    description:
+      "Разрабатывает и сопровождает нативные приложения на платформе Android, применяя навыки программной инженерии из SFIA в мобильном контексте.",
+    status: "active",
+    grades: {
+      junior: {
+        label: "Junior Android Developer",
+        summary: "Простые задачи под менторством; базовая разработка и самопроверка.",
+        requirements: [
+          req("PROG", 2),
+          req("SWDN", 2),
+          req("TEST", 1),
+          req("METL", 2),
+          req("HCEV", 2, "optional", "Реализация UI по макетам/гайдлайнам"),
+          req("ACIN", 2, "optional"),
+          req("SINT", 2, "optional"),
+        ],
+      },
+      middle: {
+        label: "Middle Android Developer",
+        summary:
+          "Самостоятельные фичи умеренной сложности; тестирование и оценка качества фичи.",
+        requirements: [
+          req("PROG", 3),
+          req("SWDN", 3),
+          req("SINT", 3),
+          req("TEST", 2, "required", "Самопроверка фичи; у Middle QA порог TEST = 3"),
+          req("METL", 3),
+          req("HCEV", 3),
+          req("ACIN", 2, "optional"),
+          req("NFTS", 2, "optional", "Базовые проверки производительности и стабильности"),
+          req("RELM", 2, "optional"),
+        ],
+      },
+      senior: {
+        label: "Senior Android Developer",
+        summary: "Сложный дизайн и интеграции, вклад в методы/инструменты, менторство.",
+        requirements: [
+          req("PROG", 4),
+          req("SWDN", 4),
+          req("SINT", 4),
+          req("TEST", 2),
+          req("METL", 4),
+          req("HCEV", 3),
+          req("NFTS", 2),
+          req("RELM", 3),
+          req("ACIN", 3, "optional"),
+          req("USEV", 2, "optional"),
+        ],
+      },
+      lead: {
+        label: "Lead Android Developer",
+        summary: "Техлидерство: стандарты разработки, проектирования и интеграции на стриме/направлении.",
+        requirements: [
+          req("PROG", 5),
+          req("SWDN", 5),
+          req("SINT", 5),
+          req("METL", 5),
+          req("RELM", 4),
+          req("ACIN", 3, "optional"),
+          req("TEST", 2, "optional"),
+          req("NFTS", 3, "optional"),
+          req("HCEV", 3, "optional"),
+        ],
+      },
+    },
+  },
+  {
     id: "frontend-developer",
     name: "Frontend Developer",
     name_ru: "Frontend-разработчик",
@@ -650,9 +720,9 @@ const roles = [
       middle: {
         label: "Middle QA Engineer",
         summary:
-          "Самостоятельный тест-дизайн фич. TEST = 3 (выше, чем Middle iOS/Frontend = 2).",
+          "Самостоятельный тест-дизайн фич. TEST = 3 (выше, чем Middle iOS/Android/Frontend = 2).",
         requirements: [
-          req("TEST", 3, "required", "У Middle iOS/Frontend порог TEST = 2"),
+          req("TEST", 3, "required", "У Middle iOS/Android/Frontend порог TEST = 2"),
           req("NFTS", 3),
           req("QUAS", 3),
           req("USEV", 3),
@@ -775,7 +845,7 @@ const assessmentGuide = {
     {
       id: "overview",
       title: "Зачем матрица",
-      body: "Матрица фиксирует требования роли на каждом грейде как набор навыков SFIA с минимальными уровнями. Один навык (например, TEST) может требовать разные уровни в разных ролях: Middle iOS/Frontend/Backend — 2, Middle QA — 3.",
+      body: "Матрица фиксирует требования роли на каждом грейде как набор навыков SFIA с минимальными уровнями. Один навык (например, TEST) может требовать разные уровни в разных ролях: Middle iOS/Android/Frontend/Backend — 2, Middle QA — 3.",
     },
     {
       id: "steps",
@@ -790,7 +860,7 @@ const assessmentGuide = {
     {
       id: "role-hints",
       title: "Рекомендации по роли",
-      body: "Навык SFIA общий (например, PROG). Рядом с уровнями в карточке роли — рекомендации: что именно проверять для iOS, Frontend, Backend или QA. Если рекомендаций нет — ориентируйтесь на универсальный текст SFIA: для этого навыка ролевой специфики нет.",
+      body: "Навык SFIA общий (например, PROG). Рядом с уровнями в карточке роли — рекомендации: что именно проверять для iOS, Android, Frontend, Backend или QA. Если рекомендаций нет — ориентируйтесь на универсальный текст SFIA: для этого навыка ролевой специфики нет.",
     },
     {
       id: "rules",
@@ -800,7 +870,7 @@ const assessmentGuide = {
     {
       id: "sfia",
       title: "Про SFIA",
-      body: "SFIA 9 задаёт общий смысл навыка и уровней. Контекст направления (iOS / web / backend / QA) — в порогах грейда и в рекомендациях по оценке, привязанных к роли.",
+      body: "SFIA 9 задаёт общий смысл навыка и уровней. Контекст направления (iOS / Android / web / backend / QA) — в порогах грейда и в рекомендациях по оценке, привязанных к роли.",
     },
   ],
 };
@@ -1023,12 +1093,12 @@ writeFileSync(
     "",
     "## Пример переиспользования навыка",
     "",
-    "| Навык | iOS / Middle | Frontend / Middle | Backend / Middle | QA / Middle | PM / Middle |",
-    "| --- | --- | --- | --- | --- | --- |",
-    "| TEST | ≥ 2 | ≥ 2 | ≥ 2 | ≥ 3 | — |",
-    "| ACIN | ≥ 2 | ≥ 2 | — | ≥ 3 | — |",
-    "| HCEV | ≥ 3 | ≥ 3 | — | — | ≥ 3 |",
-    "| DBDS | — | — | ≥ 3 | — | — |",
+    "| Навык | iOS / Middle | Android / Middle | Frontend / Middle | Backend / Middle | QA / Middle | PM / Middle |",
+    "| --- | --- | --- | --- | --- | --- | --- |",
+    "| TEST | ≥ 2 | ≥ 2 | ≥ 2 | ≥ 2 | ≥ 3 | — |",
+    "| ACIN | ≥ 2 | ≥ 2 | ≥ 2 | — | ≥ 3 | — |",
+    "| HCEV | ≥ 3 | ≥ 3 | ≥ 3 | — | — | ≥ 3 |",
+    "| DBDS | — | — | — | ≥ 3 | — | — |",
     "",
   ].join("\n")
 );

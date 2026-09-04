@@ -7,7 +7,7 @@ requirements:
   - skill_id: TEST
     min_level: 3
     priority: required
-    notes: "У Middle iOS/Frontend порог TEST = 2"
+    notes: "У Middle iOS/Android/Frontend порог TEST = 2"
   - skill_id: NFTS
     min_level: 3
     priority: required
@@ -37,13 +37,13 @@ requirements:
 
 # Middle QA Engineer
 
-Самостоятельный тест-дизайн фич. TEST = 3 (выше, чем Middle iOS/Frontend = 2).
+Самостоятельный тест-дизайн фич. TEST = 3 (выше, чем Middle iOS/Android/Frontend = 2).
 
 ## Требования к навыкам
 
 | skill_id | Навык | min_level | priority | notes |
 | --- | --- | --- | --- | --- |
-| TEST | [skills/test.md](../../../skills/test.md) | **3** | required | У Middle iOS/Frontend порог TEST = 2 |
+| TEST | [skills/test.md](../../../skills/test.md) | **3** | required | У Middle iOS/Android/Frontend порог TEST = 2 |
 | NFTS | [skills/nfts.md](../../../skills/nfts.md) | **3** | required | — |
 | QUAS | [skills/quas.md](../../../skills/quas.md) | **3** | required | — |
 | USEV | [skills/usev.md](../../../skills/usev.md) | **3** | required | — |
