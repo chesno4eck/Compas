@@ -13,19 +13,17 @@ requirements:
   - skill_id: TEST
     min_level: 1
     priority: required
+    notes: "Минимум: smoke-тест на happy path эндпоинта"
   - skill_id: METL
     min_level: 2
     priority: required
-  - skill_id: DBDS
+  - skill_id: MEAS
     min_level: 2
-    priority: optional
-    notes: "Простые таблицы и миграции по образцу"
-  - skill_id: DTAN
-    min_level: 2
-    priority: optional
+    priority: required
   - skill_id: SINT
     min_level: 2
-    priority: optional
+    priority: required
+    notes: "Использование CI/CD-шаблонов DevOps"
 ---
 
 # Junior Backend Developer
@@ -38,11 +36,10 @@ requirements:
 | --- | --- | --- | --- | --- |
 | PROG | [skills/prog.md](../../../skills/prog.md) | **2** | required | — |
 | SWDN | [skills/swdn.md](../../../skills/swdn.md) | **2** | required | — |
-| TEST | [skills/test.md](../../../skills/test.md) | **1** | required | — |
+| TEST | [skills/test.md](../../../skills/test.md) | **1** | required | Минимум: smoke-тест на happy path эндпоинта |
 | METL | [skills/metl.md](../../../skills/metl.md) | **2** | required | — |
-| DBDS | [skills/dbds.md](../../../skills/dbds.md) | **2** | optional | Простые таблицы и миграции по образцу |
-| DTAN | [skills/dtan.md](../../../skills/dtan.md) | **2** | optional | — |
-| SINT | [skills/sint.md](../../../skills/sint.md) | **2** | optional | — |
+| MEAS | [skills/meas.md](../../../skills/meas.md) | **2** | required | — |
+| SINT | [skills/sint.md](../../../skills/sint.md) | **2** | required | Использование CI/CD-шаблонов DevOps |
 
 ## Критерий
 

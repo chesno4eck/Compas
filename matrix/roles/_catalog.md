@@ -13,7 +13,7 @@
 
 | Навык | iOS / Middle | Android / Middle | Frontend / Middle | Backend / Middle | QA / Middle | PM / Middle |
 | --- | --- | --- | --- | --- | --- | --- |
-| TEST | ≥ 2 | ≥ 2 | ≥ 2 | ≥ 2 | ≥ 3 | — |
+| TEST | ≥ 2 | ≥ 2 | ≥ 2 | ≥ 3 | ≥ 3 | — |
 | ACIN | ≥ 2 | ≥ 2 | ≥ 2 | — | ≥ 3 | — |
 | HCEV | ≥ 3 | ≥ 3 | ≥ 3 | — | — | ≥ 3 |
-| DBDS | — | — | — | ≥ 3 | — | — |
+| DBDS | — | — | — | ≥ 3 (optional) | — | — |

@@ -11,26 +11,31 @@ requirements:
     min_level: 4
     priority: required
   - skill_id: SINT
-    min_level: 4
+    min_level: 3
     priority: required
+    notes: "Использование CI/CD-шаблонов DevOps; L4–L5 — зона DevOps"
   - skill_id: TEST
-    min_level: 2
+    min_level: 4
     priority: required
   - skill_id: METL
     min_level: 4
     priority: required
+  - skill_id: MEAS
+    min_level: 4
+    priority: required
   - skill_id: DBDS
-    min_level: 3
-    priority: required
-  - skill_id: NFTS
-    min_level: 2
-    priority: required
+    min_level: 4
+    priority: optional
+  - skill_id: DTAN
+    min_level: 4
+    priority: optional
   - skill_id: RELM
     min_level: 3
-    priority: required
-  - skill_id: DTAN
+    priority: optional
+  - skill_id: NFTS
     min_level: 3
     priority: optional
+    notes: "Нагрузочные тесты сервиса, профилирование Go"
 ---
 
 # Senior Backend Developer
@@ -43,13 +48,14 @@ requirements:
 | --- | --- | --- | --- | --- |
 | PROG | [skills/prog.md](../../../skills/prog.md) | **4** | required | — |
 | SWDN | [skills/swdn.md](../../../skills/swdn.md) | **4** | required | — |
-| SINT | [skills/sint.md](../../../skills/sint.md) | **4** | required | — |
-| TEST | [skills/test.md](../../../skills/test.md) | **2** | required | — |
+| SINT | [skills/sint.md](../../../skills/sint.md) | **3** | required | Использование CI/CD-шаблонов DevOps; L4–L5 — зона DevOps |
+| TEST | [skills/test.md](../../../skills/test.md) | **4** | required | — |
 | METL | [skills/metl.md](../../../skills/metl.md) | **4** | required | — |
-| DBDS | [skills/dbds.md](../../../skills/dbds.md) | **3** | required | — |
-| NFTS | [skills/nfts.md](../../../skills/nfts.md) | **2** | required | — |
-| RELM | [skills/relm.md](../../../skills/relm.md) | **3** | required | — |
-| DTAN | [skills/dtan.md](../../../skills/dtan.md) | **3** | optional | — |
+| MEAS | [skills/meas.md](../../../skills/meas.md) | **4** | required | — |
+| DBDS | [skills/dbds.md](../../../skills/dbds.md) | **4** | optional | — |
+| DTAN | [skills/dtan.md](../../../skills/dtan.md) | **4** | optional | — |
+| RELM | [skills/relm.md](../../../skills/relm.md) | **3** | optional | — |
+| NFTS | [skills/nfts.md](../../../skills/nfts.md) | **3** | optional | Нагрузочные тесты сервиса, профилирование Go |
 
 ## Критерий
 

@@ -8,7 +8,7 @@
 
 1. **Только навыки SFIA.** Коды и смысл уровней берутся из SFIA 9. Новые «локальные» навыки не вводятся, если навык уже есть в SFIA.
 2. **Skill ≠ Role.** Роль не содержит текста уровней — только `skill_id + min_level + priority`.
-3. **Один навык — много ролей.** Пример: `TEST` на Middle iOS/Android/Frontend = L2, на Middle QA = L3.
+3. **Один навык — много ролей.** Пример: `TEST` на Middle iOS/Android/Frontend = L2, на Middle Backend/QA = L3.
 4. **Грейд — профиль требований**, не отдельный навык.
 5. **Контент навыка отделён от процесса оценки.**
 
@@ -65,7 +65,7 @@ erDiagram
 - `ios-developer` — эталон engineering-роли: акцент PROG / SWDN / SINT
 - `android-developer` — те же пороги, что у iOS; платформенный контекст — в рекомендациях по оценке
 - `frontend-developer` — те же пороги, что у iOS; платформенный контекст — в рекомендациях по оценке
-- `backend-developer` — те же пороги PROG / SWDN / SINT / TEST / METL, что у iOS; вместо HCEV / USEV / ACIN — DBDS и DTAN
+- `backend-developer` — PROG / SWDN / METL как у iOS; TEST выше (до L5); SINT потолок L3 (CI/CD-шаблоны); обязательный MEAS; DBDS / DTAN / RELM / NFTS — optional
 - `qa-engineer` — выше пороги TEST / NFTS / QUAS / USEV; PROG на уровне automation
 
 ---
